@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>STRDIC_NEWSFEED</key>
+	<dict>
+		<key>NAVBAR_TITLE</key>
+		<string>Profile</string>
+	</dict>
+	<key>STRDIC_ACTIVITYFEED</key>
+	<dict>
+		<key>NAVBAR_TITLE</key>
+		<string>Activity</string>
+	</dict>
+	<key>STRDIC_POSTNEW</key>
+	<dict>
+		<key>NAVBAR_TITLE</key>
+		<string>Upload New File</string>
+		<key>NAVBAR_RBTN</key>
+		<string>Publish</string>
+	</dict>
+	<key>STRDIC_EXPLORE</key>
+	<dict>
+		<key>NAVBAR_TITLE</key>
+		<string>Explore Videos</string>
+	</dict>
+	<key>STRDIC_VIEWFILE</key>
+	<dict>
+		<key>NAVBAR_TITLE</key>
+		<string>Vote</string>
+	</dict>
+	<key>STRDIC_ELEMENTS</key>
+	<dict>
+		<key>NAVBAR_TITLE</key>
+		<string>Elements</string>
+	</dict>
+</dict>
+</plist>

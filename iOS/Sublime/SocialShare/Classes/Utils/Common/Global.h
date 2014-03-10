@@ -1,0 +1,35 @@
+//
+//  Global.h
+//  SocialShare
+//
+//  Created by Tapha Media Ltd on 1/20/11.
+//  Copyright (c) 2013 Tapha Media Ltd. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+CGSize gScreenSize;
+
+#define STRDIC_NEWSFEED	@"STRDIC_NEWSFEED"
+#define STRID_NEWSFEED_NAVTITLE     @"NAVBAR_TITLE"
+
+
+#define STRDIC_ACTIVITYFEED	@"STRDIC_ACTIVITYFEED"
+#define STRID_ACTIVITYFEED_NAVTITLE     @"NAVBAR_TITLE"
+
+
+#define STRDIC_POSTNEW	@"STRDIC_POSTNEW"
+#define STRID_POSTNEW_NAVTITLE     @"NAVBAR_TITLE"
+#define STRID_POSTNEW_NAV_RBTN     @"NAVBAR_RBTN"
+
+
+#define STRDIC_EXPLORE	@"STRDIC_EXPLORE"
+#define STRID_EXPLORE_NAVTITLE     @"NAVBAR_TITLE"
+
+
+#define STRDIC_VIEWFILE	@"STRDIC_VIEWFILE"
+#define STRID_VIEWFILE_NAVTITLE     @"NAVBAR_TITLE"
+
+
+#define STRDIC_ELEMENTS	@"STRDIC_ELEMENTS"
+#define STRID_ELEMENTS_NAVTITLE     @"NAVBAR_TITLE"
