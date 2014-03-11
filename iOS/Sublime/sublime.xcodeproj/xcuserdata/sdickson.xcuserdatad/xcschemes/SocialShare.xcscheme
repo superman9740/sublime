@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C360952717CB7B2A005A8682"
-               BuildableName = "SocialShare.app"
+               BuildableName = "sublime.app"
                BlueprintName = "sublime"
                ReferencedContainer = "container:sublime.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C360952717CB7B2A005A8682"
-            BuildableName = "SocialShare.app"
+            BuildableName = "sublime.app"
             BlueprintName = "sublime"
             ReferencedContainer = "container:sublime.xcodeproj">
          </BuildableReference>
@@ -52,7 +52,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C360952717CB7B2A005A8682"
-            BuildableName = "SocialShare.app"
+            BuildableName = "sublime.app"
             BlueprintName = "sublime"
             ReferencedContainer = "container:sublime.xcodeproj">
          </BuildableReference>
@@ -70,7 +70,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C360952717CB7B2A005A8682"
-            BuildableName = "SocialShare.app"
+            BuildableName = "sublime.app"
             BlueprintName = "sublime"
             ReferencedContainer = "container:sublime.xcodeproj">
          </BuildableReference>

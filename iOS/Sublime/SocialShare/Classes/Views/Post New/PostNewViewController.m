@@ -8,6 +8,10 @@
 
 #import "PostNewViewController.h"
 
+
+static inline double radians (double degrees) {return degrees * M_PI/180;}
+
+
 @interface PostNewViewController ()
 
 @end
@@ -38,10 +42,198 @@
     [self.view addSubview:toolBar];
     
     
+    _previewLayer.frame = _cameraView.frame;
+    [self setupCaptureSession:[self backCamera]];
+    
+    
     // Set Photo & Content
 //    [imgvwPhoto setImage:[UIImage imageWithContentsOfFile:@""]];
 //    [textView setText:@""];
 }
+
+#pragma mark AVFoundation
+- (AVCaptureDevice *)frontCamera {
+    NSArray *devices = [AVCaptureDevice devicesWithMediaType:AVMediaTypeVideo];
+    for (AVCaptureDevice *device in devices) {
+        if ([device position] == AVCaptureDevicePositionFront)
+        {
+            usingFrontCamera = YES;
+            
+            return device;
+        }
+    }
+    return nil;
+}
+
+- (AVCaptureDevice *)backCamera {
+    NSArray *devices = [AVCaptureDevice devicesWithMediaType:AVMediaTypeVideo];
+    for (AVCaptureDevice *device in devices) {
+        if ([device position] == AVCaptureDevicePositionBack)
+        {
+            usingFrontCamera = NO;
+            
+            return device;
+        }
+    }
+    return nil;
+}
+
+- (void)setupCaptureSession:(AVCaptureDevice*)camera
+{
+    NSError *error = nil;
+    
+    _session = [[AVCaptureSession alloc] init];
+    _session.sessionPreset = AVCaptureSessionPresetHigh;
+    
+    
+    error=nil;
+    AVCaptureInput* cameraInput = [[AVCaptureDeviceInput alloc] initWithDevice:camera error:&error];
+    
+    [_session setSessionPreset:AVCaptureSessionPresetHigh];
+    [_session addInput:cameraInput];
+    
+    [_session startRunning];
+    
+    
+    
+    _previewLayer = [AVCaptureVideoPreviewLayer layerWithSession:_session];
+    _previewLayer.frame = _cameraView.frame;
+    _previewLayer.videoGravity = AVLayerVideoGravityResizeAspectFill;
+    [_previewLayer.connection setVideoOrientation:AVCaptureVideoOrientationPortrait];
+    
+    [_cameraView.layer addSublayer:_previewLayer];
+    
+    [self setStillImageOutput:[[AVCaptureStillImageOutput alloc] init]];
+    
+    NSDictionary *outputSettings = [NSDictionary dictionaryWithObjectsAndKeys:[NSNumber numberWithUnsignedInt:kCVPixelFormatType_32BGRA], (id)kCVPixelBufferPixelFormatTypeKey, nil];
+    
+    [[self stillImageOutput] setOutputSettings:outputSettings];
+    
+    
+    [_session addOutput:[self stillImageOutput]];
+    
+    
+    
+    
+}
+
+
+
+
+-(IBAction)takePhoto:(id)sender
+{
+    if([[UIDevice currentDevice] orientation] != UIInterfaceOrientationPortrait)
+        return;
+    
+    
+    AVCaptureConnection *videoConnection = nil;
+    for (AVCaptureConnection *connection in [[self stillImageOutput] connections]) {
+        for (AVCaptureInputPort *port in [connection inputPorts]) {
+            if ([[port mediaType] isEqual:AVMediaTypeVideo]) {
+                videoConnection = connection;
+                break;
+            }
+        }
+        if (videoConnection) {
+            break;
+        }
+    }
+    
+    NSLog(@"about to request a capture from: %@", [self stillImageOutput]);
+    [[self stillImageOutput] captureStillImageAsynchronouslyFromConnection:videoConnection
+                                                         completionHandler:^(CMSampleBufferRef imageSampleBuffer, NSError *error) {
+                                                             CFDictionaryRef exifAttachments = CMGetAttachment(imageSampleBuffer, kCGImagePropertyExifDictionary, NULL);
+                                                             if (exifAttachments)
+                                                             {
+                                                                 NSLog(@"attachements: %@", exifAttachments);
+                                                             } else
+                                                             {
+                                                                 NSLog(@"no attachments");
+                                                             }
+                                                             
+                                                             
+                                                             UIImage *image=[self imageFromSampleBuffer:imageSampleBuffer];
+                                                             [[AppController sharedInstance] setSelectedImage:image];
+                                                             
+                                                             dispatch_async(dispatch_get_main_queue(), ^{
+                                                                 
+                                                                 CropImageViewController* viewController = [self.storyboard instantiateViewControllerWithIdentifier:@"cropView"];
+                                                                 [self.navigationController pushViewController:viewController animated:YES];
+                                                                 
+                                                                 
+                                                             });
+                                                             
+                                                             
+                                                         }];
+    
+    
+    
+    
+    
+}
+
+
+
+
+- (UIImage *) imageFromSampleBuffer:(CMSampleBufferRef) sampleBuffer
+{
+    // Get a CMSampleBuffer's Core Video image buffer for the media data
+    CVImageBufferRef imageBuffer = CMSampleBufferGetImageBuffer(sampleBuffer);
+    // Lock the base address of the pixel buffer
+    CVPixelBufferLockBaseAddress(imageBuffer, 0);
+    
+    // Get the number of bytes per row for the pixel buffer
+    void *baseAddress = CVPixelBufferGetBaseAddress(imageBuffer);
+    
+    // Get the number of bytes per row for the pixel buffer
+    size_t bytesPerRow = CVPixelBufferGetBytesPerRow(imageBuffer);
+    // Get the pixel buffer width and height
+    size_t width = CVPixelBufferGetWidth(imageBuffer);
+    size_t height = CVPixelBufferGetHeight(imageBuffer);
+    
+    // Create a device-dependent RGB color space
+    CGColorSpaceRef colorSpace = CGColorSpaceCreateDeviceRGB();
+    // Create a bitmap graphics context with the sample buffer data
+    CGContextRef context = CGBitmapContextCreate(baseAddress, width, height, 8,
+                                                 bytesPerRow, colorSpace, kCGBitmapByteOrder32Little | kCGImageAlphaPremultipliedFirst);
+    CGImageRef quartzImage = CGBitmapContextCreateImage(context);
+    
+    CGColorSpaceRelease(colorSpace);
+    
+    UIImage *image = [UIImage imageWithCGImage:quartzImage];
+    //return image;
+    
+    CFRelease(context);
+    
+    
+    CGSize size = CGSizeMake(3000,3000);
+    
+    // Create the bitmap context
+    UIGraphicsBeginImageContext(size);
+    
+    CGContextRef bitmap = UIGraphicsGetCurrentContext();
+    
+    // Move the origin to the middle of the image so we will rotate and scale around the center.
+    CGContextTranslateCTM(bitmap, size.width/2, size.height/2);
+    
+    CGContextRotateCTM(bitmap, radians(90));
+    CGContextScaleCTM(bitmap, 1.0f, -1.0f);
+    CGContextDrawImage(bitmap, CGRectMake(-size.width / 2, -size.height / 2, size.width, size.height), [image CGImage]);
+    
+    UIImage *rotatedImage = UIGraphicsGetImageFromCurrentImageContext();
+    
+    UIGraphicsEndImageContext();
+    
+    
+    return rotatedImage;
+    
+    
+}
+
+
+
+
+
 
 - (void)didReceiveMemoryWarning
 {
