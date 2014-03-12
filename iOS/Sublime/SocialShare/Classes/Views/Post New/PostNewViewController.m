@@ -157,9 +157,16 @@ static inline double radians (double degrees) {return degrees * M_PI/180;}
                                                              
                                                              dispatch_async(dispatch_get_main_queue(), ^{
                                                                  
-                                                                 CropImageViewController* viewController = [self.storyboard instantiateViewControllerWithIdentifier:@"cropView"];
-                                                                 [self.navigationController pushViewController:viewController animated:YES];
-                                                                 
+                                                                 SSPhotoCropperViewController *photoCropper =  [self.storyboard instantiateViewControllerWithIdentifier:@"cropView"];
+
+                                                                 [photoCropper initWithPhoto:image
+                                                                                                            delegate:self
+                                                                                                              uiMode:SSPCUIModePresentedAsModalViewController
+                                                                                                     showsInfoButton:YES];
+                                                                 [photoCropper setMinZoomScale:0.75f];
+                                                                 [photoCropper setMaxZoomScale:1.50f];
+                                                                 UINavigationController *nc = [[UINavigationController alloc] initWithRootViewController:photoCropper];
+                                                                 [self presentViewController:nc animated:YES completion:nil];
                                                                  
                                                              });
                                                              
@@ -206,7 +213,7 @@ static inline double radians (double degrees) {return degrees * M_PI/180;}
     CFRelease(context);
     
     
-    CGSize size = CGSizeMake(3000,3000);
+    CGSize size = CGSizeMake(800,800);
     
     // Create the bitmap context
     UIGraphicsBeginImageContext(size);
@@ -382,6 +389,25 @@ static inline double radians (double degrees) {return degrees * M_PI/180;}
     
     
 }
+#pragma mark crop delegate methods
 
+- (void) photoCropper:(SSPhotoCropperViewController *)photoCropper
+         didCropPhoto:(UIImage *)photo
+{
+    [[AppController sharedInstance] setSelectedImage:photo];
+    
+    
+   // self.photoPreviewImageView.image = photo;
+    [photoCropper dismissModalViewControllerAnimated:YES];
+    
+    UploadPhotoViewController* viewController = [self.storyboard instantiateViewControllerWithIdentifier:@"uploadPhotoView"];
+    [self.navigationController pushViewController:viewController animated:YES];
+    
+}
+
+- (void) photoCropperDidCancel:(SSPhotoCropperViewController *)photoCropper
+{
+    [photoCropper dismissModalViewControllerAnimated:YES];
+}
 
 @end

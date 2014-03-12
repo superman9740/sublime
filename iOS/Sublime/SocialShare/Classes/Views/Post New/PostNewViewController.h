@@ -12,7 +12,9 @@
 #import "PostNewToolBar.h"
 #import <QuartzCore/QuartzCore.h>
 #import "AppController.h"
-#import "CropImageViewController.h"
+#import "SSPhotoCropperViewController.h"
+#import "UploadPhotoViewController.h"
+
 
 
 @import CoreImage;
@@ -24,7 +26,7 @@
 @import AVFoundation;
 
 
-@interface PostNewViewController : CustomNavViewController<PostNewToolBarDelegate,UIImagePickerControllerDelegate,UINavigationControllerDelegate> {
+@interface PostNewViewController : CustomNavViewController<PostNewToolBarDelegate,UIImagePickerControllerDelegate,UINavigationControllerDelegate,SSPhotoCropperDelegate> {
     IBOutlet UIImageView * imgvwPhoto;
     
     IBOutlet UITextView * textView;

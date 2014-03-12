@@ -25,6 +25,7 @@
  
    
     
+    
 }
 
 - (void)loginViewFetchedUserInfo:(FBLoginView *)loginView        user:(id<FBGraphUser>)user {
@@ -59,6 +60,13 @@
     
     
     //self.nameLabel.text = user.name;
+}
+
+- (BOOL)textFieldShouldReturn:(UITextField *)textField
+{
+    [textField resignFirstResponder];
+    
+    return YES;
 }
 
 

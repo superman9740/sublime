@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>29F27AD1-21AA-4A85-8E1B-9FC86F2DF4B3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>sublime</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F86BB480-EE17-47B0-BDC7-77F776C1FBA9</key>
+		<string>ssh://github.com/superman9740/sublime.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>iOS/Sublime/sublime.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F86BB480-EE17-47B0-BDC7-77F776C1FBA9</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/superman9740/sublime.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F86BB480-EE17-47B0-BDC7-77F776C1FBA9</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F86BB480-EE17-47B0-BDC7-77F776C1FBA9</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Sublime</string>
+		</dict>
+	</array>
+</dict>
+</plist>

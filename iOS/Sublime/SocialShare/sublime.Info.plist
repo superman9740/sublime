@@ -16,12 +16,8 @@
 	<string>sublime</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
-	<key>FacebookAppID</key>
-	<string>279017458929415</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
-	<key>FacebookDisplayName</key>
-	<string>Sublime</string>
+	<string>1.1</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleURLTypes</key>
@@ -34,7 +30,11 @@
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>1.0</string>
+	<string>1.1</string>
+	<key>FacebookAppID</key>
+	<string>279017458929415</string>
+	<key>FacebookDisplayName</key>
+	<string>Sublime</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>UIMainStoryboardFile</key>
