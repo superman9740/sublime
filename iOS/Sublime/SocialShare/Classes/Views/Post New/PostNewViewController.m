@@ -385,7 +385,49 @@ static inline double radians (double degrees) {return degrees * M_PI/180;}
     _selectedPic.image = originalImage;
     
     
-    [_pickerController dismissViewControllerAnimated:YES completion:nil];
+    
+    
+    
+    CGSize size = CGSizeMake(800,800);
+    
+    // Create the bitmap context
+    UIGraphicsBeginImageContext(size);
+    
+    CGContextRef bitmap = UIGraphicsGetCurrentContext();
+    
+    // Move the origin to the middle of the image so we will rotate and scale around the center.
+    CGContextTranslateCTM(bitmap, size.width/2, size.height/2);
+    
+    //CGContextRotateCTM(bitmap, radians(90));
+    CGContextScaleCTM(bitmap, 1.0f, -1.0f);
+    CGContextDrawImage(bitmap, CGRectMake(-size.width / 2, -size.height / 2, size.width, size.height), [originalImage CGImage]);
+    
+    UIImage* scaledImage = UIGraphicsGetImageFromCurrentImageContext();
+    
+    UIGraphicsEndImageContext();
+    
+
+    
+    
+    
+    [_pickerController dismissViewControllerAnimated:YES completion:^{
+   
+        SSPhotoCropperViewController *photoCropper =  [self.storyboard instantiateViewControllerWithIdentifier:@"cropView"];
+        
+        [photoCropper initWithPhoto:scaledImage
+                           delegate:self
+                             uiMode:SSPCUIModePresentedAsModalViewController
+                    showsInfoButton:YES];
+        [photoCropper setMinZoomScale:0.75f];
+        [photoCropper setMaxZoomScale:1.50f];
+        UINavigationController *nc = [[UINavigationController alloc] initWithRootViewController:photoCropper];
+        [self presentViewController:nc animated:YES completion:nil];
+        
+        
+    }];
+    
+    
+    
     
     
 }

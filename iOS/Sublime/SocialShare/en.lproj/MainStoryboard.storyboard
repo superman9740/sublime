@@ -168,6 +168,9 @@
                                         <state key="normal" title="Camera Roll">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="selectPhoto" destination="5wF-Z4-zCK" eventType="touchUpInside" id="0DS-Lk-xar"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
