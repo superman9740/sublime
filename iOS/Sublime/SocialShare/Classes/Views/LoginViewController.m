@@ -107,6 +107,39 @@
 -(IBAction)loginWithEmail
 {
     
+    if([_email.text isEqualToString:@""])
+    {
+        UIAlertView* alertView = [[UIAlertView alloc] initWithTitle:@"Validation error" message:@"Please enter an email and password." delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+        [alertView show];
+        return;
+        
+        
+    }
+    NSString* retVal = [[AppController sharedInstance] userLogin:_email.text password:_password.text];
+    
+    if([retVal isEqualToString:@"1"])
+    {
+   
+        NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+        
+        [defaults setObject:_email.text forKey:@"userEmail"];
+        
+        [defaults synchronize];
+        
+        
+    
+    }
+    else
+    {
+        UIAlertView* alertView = [[UIAlertView alloc] initWithTitle:@"Validation error" message:@"Your User ID and/or password were incorrect." delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+        [alertView show];
+ 
+        
+    }
+    
+    
+    
+   
     
 }
 

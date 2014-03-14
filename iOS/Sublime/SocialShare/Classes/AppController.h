@@ -28,5 +28,6 @@
 
 + (id)sharedInstance;
 -(void)registerNewUser:(NSString*)email password:(NSString*)password;
+-(NSString*)userLogin:(NSString*)email password:(NSString*)password;
 
 @end

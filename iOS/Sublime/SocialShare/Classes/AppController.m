@@ -55,6 +55,34 @@ static  AppController* sharedInstance = nil;
     return self;
     
 }
+-(NSString*)userLogin:(NSString*)email password:(NSString*)password
+{
+    
+    NSString* urlString = [NSString stringWithFormat:@"http://173.255.223.103:8080/Sublime/UserLogin?email=%@&password=%@",email, password];
+    
+    NSURL* url = [NSURL URLWithString:urlString];
+    
+    NSError* error = nil;
+    NSURLResponse* response = nil;
+    NSURLRequest* request = [NSURLRequest requestWithURL:url];
+    
+    
+    NSData* jsonData = [NSURLConnection sendSynchronousRequest:request returningResponse:&response error:&error];
+    if(error.code == -1004)
+    {
+        
+        /*
+         UIAlertView* alertView = [[UIAlertView alloc] initWithTitle:@"Service Error" message:@"There was an error connecting to the server.  Please try again." delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+         [alertView show];
+         return;
+         */
+    }
+    NSString* returnString = [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];
+    
+    return returnString;
+    
+    
+}
 
 -(void)registerNewUser:(NSString*)email password:(NSString*)password
 {

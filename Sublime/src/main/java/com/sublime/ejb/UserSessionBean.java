@@ -11,7 +11,7 @@ import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
-
+import javax.persistence.Query;
 /**
  *
  * @author USMEM-W-003157
@@ -21,6 +21,23 @@ public class UserSessionBean {
 
     private EntityManager em;
     
+    public int UserLogin(String email, String password) {
+    
+    
+           
+            EntityManagerFactory emf = Persistence.createEntityManagerFactory("com.sublime_Sublime_war_1.0-SNAPSHOTPU");
+            EntityManager em = emf.createEntityManager();
+            Query queryObj = em.createNamedQuery("User.findByEmail");
+            queryObj.setParameter("email", email);
+            
+            User foundUser = (User)queryObj.getSingleResult();
+            if(foundUser.getEmail().equals(password))
+                return 1;
+            else
+                return 0;
+            
+    }
+
     public void RegisterNewUser(String email, String password) {
     
     

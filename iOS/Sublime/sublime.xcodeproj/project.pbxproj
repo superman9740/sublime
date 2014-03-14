@@ -1364,8 +1364,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Ronald Dickson (Z7A22D727B)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ronald Dickson (Z7A22D727B)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/sdickson/Documents/FacebookSDK,
@@ -1385,8 +1385,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Ronald Dickson (C5B6D5ZCDE)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ronald Dickson (C5B6D5ZCDE)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/sdickson/Documents/FacebookSDK,
@@ -1397,7 +1397,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/SocialShare/sublime.Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = sublime;
-				PROVISIONING_PROFILE = "6EE86D32-17BB-49D3-8AA7-D06A87F0439E";
+				PROVISIONING_PROFILE = "C7689A66-229D-4120-A0EF-A69223FF1367";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
