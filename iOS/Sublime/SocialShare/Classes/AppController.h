@@ -20,10 +20,13 @@
 @property (assign) BOOL  isLoggedIn;
 
 @property (nonatomic, strong) NSString* fbAccessToken;
+@property (nonatomic, strong) NSString* userEmail;
+
 @property (nonatomic, strong) UIImage*  selectedImage;
 
 
 
 + (id)sharedInstance;
+-(void)registerNewUser:(NSString*)email password:(NSString*)password;
 
 @end

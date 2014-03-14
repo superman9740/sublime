@@ -28,21 +28,51 @@
     
 }
 
+-(IBAction)registerWithEmail
+{
+    
+    if([_email.text isEqualToString:@""])
+    {
+        UIAlertView* alertView = [[UIAlertView alloc] initWithTitle:@"Validation error" message:@"Please enter an email and password." delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+        [alertView show];
+        return;
+        
+        
+    }
+    [[AppController sharedInstance] registerNewUser:_email.text password:_password.text];
+    
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    
+    [defaults setObject:_email.text forKey:@"userEmail"];
+    
+    [defaults synchronize];
+    
+    
+    
+    [self dismissViewControllerAnimated:NO completion:nil];
+
+    
+    
+    
+    
+}
 - (void)loginViewFetchedUserInfo:(FBLoginView *)loginView        user:(id<FBGraphUser>)user {
     [[[AppController sharedInstance] profilePictureView] setProfileID:user.id];
     
     BOOL isLoggedIn = [[AppController sharedInstance] isLoggedIn];
+    NSString* facebookEmail = [user objectForKey:@"email"];
+    
     if(!isLoggedIn)
     {
     
-        NSString* token =  [[[FBSession activeSession] accessTokenData] accessToken];
-        
+        [[AppController sharedInstance] registerNewUser:facebookEmail password:@""];
         
         NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
         
-        [defaults setObject:token forKey:@"facebookToken"];
+        [defaults setObject:_email.text forKey:@"userEmail"];
         
         [defaults synchronize];
+        
         
         
         
@@ -75,11 +105,6 @@
     
 }
 -(IBAction)loginWithEmail
-{
-    
-    
-}
--(IBAction)registerWithEmail
 {
     
     

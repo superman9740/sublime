@@ -43,4 +43,7 @@ dependencies: \
   /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Utils/Common/Global.h \
   /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Utils/Navbar/CustomNavigationBarView.h \
   /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Utils/Common/SuperView.h \
-  /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/Post\ New/PostNewToolBar.h
+  /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/Post\ New/PostNewToolBar.h \
+  /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/AppController.h \
+  /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/Post\ New/SSPhotoCropperViewController.h \
+  /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/Post\ New/UploadPhotoViewController.h
