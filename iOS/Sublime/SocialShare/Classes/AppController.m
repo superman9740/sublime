@@ -32,12 +32,15 @@ static  AppController* sharedInstance = nil;
     self = [super init];
     if(self)
     {
+        _uploadedPhotos = [[NSMutableArray alloc] initWithCapacity:10];
+        
         NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
         _fbAccessToken = [defaults objectForKey:@"facebookToken"];
         _userEmail = [defaults objectForKey:@"userEmail"];
         if(_userEmail == nil)
         {
             self.isLoggedIn = NO;
+          
             
         }
         else

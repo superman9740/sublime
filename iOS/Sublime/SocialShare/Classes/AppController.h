@@ -23,6 +23,9 @@
 @property (nonatomic, strong) NSString* userEmail;
 
 @property (nonatomic, strong) UIImage*  selectedImage;
+@property (nonatomic, strong) UIImage*  userProfilePhoto;
+@property (nonatomic, strong) NSMutableArray*  uploadedPhotos;
+
 
 
 

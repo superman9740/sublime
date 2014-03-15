@@ -57,4 +57,5 @@ dependencies: \
   /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/Post\ New/PostNewToolBar.h \
   /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/Post\ New/SSPhotoCropperViewController.h \
   /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/Post\ New/UploadPhotoViewController.h \
-  /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/View\ File/ViewFileViewController.h
+  /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/View\ File/ViewFileViewController.h \
+  /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/UserProfileViewController.h

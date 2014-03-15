@@ -7,6 +7,7 @@
 package com.sublime.ejb;
 
 import com.sublime.jpa.User;
+import java.util.List;
 import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
@@ -53,6 +54,16 @@ public class UserSessionBean {
             
     }
 
+    public List<User> getAllUsers()
+    {
+           
+            EntityManagerFactory emf = Persistence.createEntityManagerFactory("com.sublime_Sublime_war_1.0-SNAPSHOTPU");
+            EntityManager em = emf.createEntityManager();
+            Query queryObj = em.createNamedQuery("User.findAll");
+            return queryObj.getResultList();
+            
+        
+    }
     // Add business logic below. (Right-click in editor and choose
     // "Insert Code > Add Business Method")
 

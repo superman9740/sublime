@@ -13,6 +13,7 @@
 #import "NewsFeedViewController.h"
 #import "PostNewViewController.h"
 #import "ViewFileViewController.h"
+#import "UserProfileViewController.h"
 
 
 @interface UICustomTabbarController ()
@@ -29,8 +30,9 @@
     // Do any additional setup after loading the view from its nibs
     
     // Initialize
-    NewsFeedViewController * newsController = (NewsFeedViewController *)[[NewsFeedViewController alloc] viewFromStoryboard];
-    navNewsFeedController = [[UINavigationController alloc] initWithRootViewController:newsController];
+    UserProfileViewController* userViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"userProfileView"];
+    
+    navNewsFeedController = [[UINavigationController alloc] initWithRootViewController:userViewController];
     [navNewsFeedController.view setFrame:CGRectMake( 0, 0, gScreenSize.width, gScreenSize.height )];
     [navNewsFeedController setNavigationBarHidden:YES];
     

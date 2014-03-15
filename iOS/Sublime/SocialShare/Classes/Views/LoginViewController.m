@@ -117,7 +117,7 @@
     }
     NSString* retVal = [[AppController sharedInstance] userLogin:_email.text password:_password.text];
     
-    if([retVal isEqualToString:@"1"])
+    if([retVal isEqualToString:@"1\n"])
     {
    
         NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
@@ -126,6 +126,8 @@
         
         [defaults synchronize];
         
+        [self dismissViewControllerAnimated:NO completion:nil];
+
         
     
     }

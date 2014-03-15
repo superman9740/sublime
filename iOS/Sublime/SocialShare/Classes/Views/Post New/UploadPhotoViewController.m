@@ -33,6 +33,7 @@
 
 -(IBAction)uploadPhoto:(id)sender
 {
+    [[[AppController sharedInstance] uploadedPhotos] addObject:self.imageView.image];
     
     
     UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Upload" message:@"Your photo is on its way!" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];

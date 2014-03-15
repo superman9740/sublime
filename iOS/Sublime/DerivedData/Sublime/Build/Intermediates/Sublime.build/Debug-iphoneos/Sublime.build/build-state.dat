@@ -6,6 +6,7 @@ cProcessInfoPlistFile /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/subli
 cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/ResourceRules.plist
 cProcessPCH /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/PrecompiledHeaders/sublime.temp_caseinsensitive_rename-Prefix-hbqxeqhjhcqxxbdwhbdbhazkrgpn/sublime.temp_caseinsensitive_rename-Prefix.pch.pch SocialShare/sublime.temp_caseinsensitive_rename-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/main.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/UserProfileViewController.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/UserProfileViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/AppDelegate.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/AppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/ViewController.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/ViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/SSPhotoCropperViewController.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/Post\ New/SSPhotoCropperViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
@@ -45,8 +46,8 @@ cCopyPNGFile /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/
 cCopyPNGFile /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/Default@2x.png SocialShare/Default@2x.png
 cCopyPNGFile /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/Default-568h@2x.png SocialShare/Default-568h@2x.png
 cCompileStoryboard /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/en.lproj/MainStoryboard.storyboard
-cCopyPNGFile /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/nav-bg@2x.png SocialShare/Classes/Utils/Navbar/Images/nav-bg@2x.png
 cCopyPNGFile /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/nav-bg.png SocialShare/Classes/Utils/Navbar/Images/nav-bg.png
+cCopyPNGFile /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/nav-bg@2x.png SocialShare/Classes/Utils/Navbar/Images/nav-bg@2x.png
 cCopyPNGFile /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/nav-lbtn.png SocialShare/Classes/Utils/Navbar/Images/nav-lbtn.png
 cCopyPNGFile /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/nav-lbtn@2x.png SocialShare/Classes/Utils/Navbar/Images/nav-lbtn@2x.png
 cCopyPNGFile /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/nav-rbtn.png SocialShare/Classes/Utils/Navbar/Images/nav-rbtn.png
@@ -139,6 +140,7 @@ cCopyPNGFile /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/
 cCopyPNGFile /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/segment-option3-normal.png SocialShare/Classes/Views/Elements/Images/segment-option3-normal.png
 cCopyPNGFile /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/segment-option3-normal@2x.png SocialShare/Classes/Views/Elements/Images/segment-option3-normal@2x.png
 cCopyPNGFile /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/segment-option3-selected.png SocialShare/Classes/Views/Elements/Images/segment-option3-selected.png
+cCopyPNGFile /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/following_button.png SocialShare/Resources/following_button.png
 cCopyPNGFile /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/segment-option3-selected@2x.png SocialShare/Classes/Views/Elements/Images/segment-option3-selected@2x.png
 cCopyPNGFile /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/photo_cropper_rect@2x.png SocialShare/Resources/photo_cropper_rect@2x.png
 cCopyPNGFile /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/explore-photo-frame.png SocialShare/Classes/Views/Explore/Images/explore-photo-frame.png
@@ -150,6 +152,7 @@ cCopyPNGFile /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/
 cCopyPNGFile /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/newsfeed-cell-bg@2x.png SocialShare/Classes/Views/News\ Feed/Images/newsfeed-cell-bg@2x.png
 cCopyPNGFile /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/newsfeed-cell-photoicon.png SocialShare/Classes/Views/News\ Feed/Images/newsfeed-cell-photoicon.png
 cCopyPNGFile /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/newsfeed-cell-photoicon@2x.png SocialShare/Classes/Views/News\ Feed/Images/newsfeed-cell-photoicon@2x.png
+cCopyPNGFile /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/move_right.png SocialShare/Resources/move_right.png
 cCopyPNGFile /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/newsfeed-cell-playicon.png SocialShare/Classes/Views/News\ Feed/Images/newsfeed-cell-playicon.png
 cCopyPNGFile /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/newsfeed-cell-playicon@2x.png SocialShare/Classes/Views/News\ Feed/Images/newsfeed-cell-playicon@2x.png
 cCopyPNGFile /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/newsfeed-cell-videoicon.png SocialShare/Classes/Views/News\ Feed/Images/newsfeed-cell-videoicon.png
@@ -193,6 +196,7 @@ cCopyPNGFile /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/
 cCopyPNGFile /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/viewfile-head-bg.png SocialShare/Classes/Views/View\ File/Images/viewfile-head-bg.png
 cCopyPNGFile /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/viewfile-head-bg@2x.png SocialShare/Classes/Views/View\ File/Images/viewfile-head-bg@2x.png
 cCopyPNGFile /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/viewfile-speechicon.png SocialShare/Classes/Views/View\ File/Images/viewfile-speechicon.png
+cCopyPNGFile /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/move_left.png SocialShare/Resources/move_left.png
 cCopyPNGFile /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/viewfile-speechicon@2x.png SocialShare/Classes/Views/View\ File/Images/viewfile-speechicon@2x.png
 cCopyPlistFile /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/strings.plist SocialShare/Resources/strings.plist
 cProcessProductPackaging /Users/sdickson/Library/MobileDevice/Provisioning\ Profiles/98850619-0A0D-48A4-A7DF-27E49D8D4F7F.mobileprovision /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/embedded.mobileprovision
@@ -513,11 +517,11 @@ t1394752783
 s66688
 
 N/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/AppController.o
-t1394756238
-s53608
+t1394900644
+s58300
 
 N/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/AppDelegate.o
-t1394753664
+t1394900574
 s84164
 
 N/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/CustomNavViewController.o
@@ -549,15 +553,15 @@ t1394752783
 s64640
 
 N/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/LoginViewController.o
-t1394756631
-s63028
+t1394900574
+s66264
 
 N/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/NewsFeedCell.o
 t1394752783
 s53672
 
 N/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/NewsFeedViewController.o
-t1394753664
+t1394900574
 s68488
 
 N/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/PostNewToolBar.o
@@ -565,7 +569,7 @@ t1394752783
 s48596
 
 N/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/PostNewViewController.o
-t1394753664
+t1394900574
 s121984
 
 N/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/SSPhotoCropperViewController.o
@@ -605,8 +609,8 @@ t1394752783
 s76436
 
 N/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/UICustomTabbarController.o
-t1394753664
-s81728
+t1394902847
+s81804
 
 N/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/UIGroupCheckboxView.o
 t1394752782
@@ -617,8 +621,12 @@ t1394752783
 s39564
 
 N/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/UploadPhotoViewController.o
-t1394753664
-s51704
+t1394900574
+s52440
+
+N/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/UserProfileViewController.o
+t1394905299
+s66100
 
 N/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/ViewController.o
 t1394752782
@@ -637,20 +645,20 @@ t1394752782
 s3864
 
 N/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/sublime.LinkFileList
-c0000000053223D0D0000000000001587
-t1394752781
-s5511
+c00000000532473750000000000001635
+t1394897781
+s5685
 
 N/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/sublime.xcent
-t1394752786
+t1394900580
 s470
 
 N/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app
-t1394756648
-s5474
+t1394905311
+s5576
 
 N/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app.dSYM
-t1394756631
+t1394905176
 s102
 
 N/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/Default-568h@2x.png
@@ -666,11 +674,11 @@ t1394397919
 s6316
 
 N/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/Info.plist
-t1394752781
-s1188
+t1394835021
+s1194
 
 N/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/PkgInfo
-t1394752781
+t1394835021
 s8
 
 N/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/ResourceRules.plist
@@ -770,7 +778,7 @@ t1394397919
 s42
 
 N/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/en.lproj/MainStoryboard.storyboardc
-t1394756184
+t1394905311
 s1122
 
 N/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/explore-photo-frame.png
@@ -788,6 +796,18 @@ s117823
 N/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/facebooklogin.jpeg
 t1394397919
 s2711
+
+N/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/following_button.png
+t1394897785
+s2454
+
+N/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/move_left.png
+t1394902240
+s2981
+
+N/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/move_right.png
+t1394902849
+s2688
 
 N/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/nav-bg.png
 t2
@@ -1046,8 +1066,8 @@ t1394752784
 s298
 
 N/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/sublime
-t1394756631
-s771376
+t1394905299
+s762372
 
 N/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/switch-left-normal.png
 t1394397919
@@ -1304,14 +1324,14 @@ t1394408451
 s7473
 
 N/Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/AppController.h
-c00000000532240800000000000000245
-t1394753664
-s581
+c0000000053247E5D0000000000000304
+t1394900573
+s772
 
 N/Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/AppController.m
-c0000000053224A8E0000000000000E04
-t1394756238
-s3588
+c0000000053247EA4000000000000124E
+t1394900644
+s4686
 
 N/Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Utils/Common/Global.h
 c00000000521B485D0000000000000339
@@ -1759,9 +1779,9 @@ t1377520879
 s854
 
 N/Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Utils/UICustomTabbarController/UICustomTabbarController.m
-c00000000523D58650000000000001852
-t1379752037
-s6226
+c00000000532473750000000000001886
+t1394897781
+s6278
 
 N/Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/Activity Feed/ActivityFeedItemCell.h
 c00000000521B472400000000000002AE
@@ -2004,9 +2024,9 @@ t1394405327
 s567
 
 N/Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/LoginViewController.m
-c0000000053224C1700000000000008D6
-t1394756631
-s2262
+c0000000053237E0C0000000000000CDE
+t1394834956
+s3294
 
 N/Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/News Feed/Images/newsfeed-cell-bg.png
 c00000000515170EC0000000000001960
@@ -2224,9 +2244,19 @@ t1394752712
 s320
 
 N/Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/Post New/UploadPhotoViewController.m
-c0000000053223CC800000000000005D0
-t1394752712
-s1488
+c0000000053247E5D0000000000000626
+t1394900573
+s1574
+
+N/Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/UserProfileViewController.h
+c000000005324873E0000000000000325
+t1394902846
+s805
+
+N/Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/UserProfileViewController.m
+c00000000532490D30000000000001260
+t1394905299
+s4704
 
 N/Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/View File/Images/viewfile-button-comment.png
 c00000000523D6B3D0000000000000CBE
@@ -2338,6 +2368,21 @@ c00000000531CCD810000000000000A97
 t1394396545
 s2711
 
+N/Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Resources/following_button.png
+c000000005324723F0000000000000AD7
+t1394897471
+s2775
+
+N/Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Resources/move_left.png
+c00000000532484700000000000000D13
+t1394902128
+s3347
+
+N/Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Resources/move_right.png
+c00000000532485E00000000000000B96
+t1394902496
+s2966
+
 N/Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Resources/photo_cropper_bg.png
 c0000000053223CC800000000000000D6
 t1394752712
@@ -2389,9 +2434,9 @@ t1377518506
 s45
 
 N/Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/en.lproj/MainStoryboard.storyboard
-c0000000053224A570000000000016D66
-t1394756183
-s93542
+c00000000532490D300000000000174A3
+t1394905299
+s95395
 
 N/Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/main.m
 c00000000521B43AA000000000000015E
@@ -2399,8 +2444,8 @@ t1377518506
 s350
 
 N/Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/sublime.Info.plist
-c0000000053223CC80000000000000560
-t1394752712
+c0000000053237E4A0000000000000560
+t1394835018
 s1376
 
 N/Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/sublime.temp_caseinsensitive_rename-Prefix.pch
@@ -2690,6 +2735,9 @@ r0
 CBuild AST from /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/Post\ New/UploadPhotoViewController.m
 r0
 
+CBuild AST from /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/UserProfileViewController.m
+r0
+
 CBuild AST from /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/View\ File/ViewFileItemCell.m
 r0
 
@@ -2704,17 +2752,220 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies4beac4a883d2b841^952ac5a883d2b841^---0#1#1#--18"Check dependencies36"03B1A486-6F93-4639-B278-551B46547CF1-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies91483b53c8d4b841^f6eb4253c8d4b841^---0#1#1#--18"Check dependencies36"95014155-C7EF-4508-BFF5-21A775B40A82-
 
 CCodeSign /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app
-s416449448.801647
-e416449448.963552
+s416598111.277218
+e416598112.661884
 r1
 xCodeSign
 x/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app
-o/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app: replacing existing signature
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"CodeSign DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app70"CodeSign DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app6748cda883d2b841^deabf6a883d2b841^-133"/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app: replacing existing signature-0#0#1#-19%DVTDocumentLocation2@110"file:///Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/0000000000000000^1081"CodeSign DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app    cd /Users/sdickson/Code/Sublime/iOS/Sublime    export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    Using code signing identity "iPhone Developer: Ronald Dickson (Z7A22D727B)" and provisioning profile "sublime_dev_profile" (98850619-0A0D-48A4-A7DF-27E49D8D4F7F)    /usr/bin/codesign --force --sign 99EB70FDE2E2A70E3398E5319A9305C3D6840407 --resource-rules=/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/ResourceRules.plist --entitlements /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/sublime.xcent /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app36"A7FC534C-3FC4-44B1-8CE5-CBD6A46FEBB4-
-b44668B84-6063-4DD2-B2B6-D5076CE54542
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"CodeSign DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app70"CodeSign DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app9b04475fc8d4b841^8f71a960c8d4b841^---0#0#1#-19%DVTDocumentLocation2@110"file:///Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/0000000000000000^1081"CodeSign DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app    cd /Users/sdickson/Code/Sublime/iOS/Sublime    export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    Using code signing identity "iPhone Developer: Ronald Dickson (Z7A22D727B)" and provisioning profile "sublime_dev_profile" (98850619-0A0D-48A4-A7DF-27E49D8D4F7F)    /usr/bin/codesign --force --sign 99EB70FDE2E2A70E3398E5319A9305C3D6840407 --resource-rules=/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/ResourceRules.plist --entitlements /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/sublime.xcent /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app36"25461380-4D5C-4AD9-91AE-F9CD9ED9CFE5-
+bCD7CE93C-807E-45AD-A031-E2B2B377F3F8
+
+CCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/arm64/ActivityFeedItemCell.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/Activity\ Feed/ActivityFeedItemCell.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/arm64/ActivityFeedViewController.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/Activity\ Feed/ActivityFeedViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/arm64/AppController.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/AppController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/arm64/AppDelegate.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/AppDelegate.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/arm64/CustomNavViewController.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Utils/Navbar/CustomNavViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/arm64/CustomNavigationBarView.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Utils/Navbar/CustomNavigationBarView.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/arm64/CustomSegmentedControl.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Utils/UICustomSegmented/CustomSegmentedControl.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/arm64/ElementsViewController.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/Elements/ElementsViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/arm64/ExploreVideoItemCell.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/Explore/ExploreVideoItemCell.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/arm64/ExploreVideoItemView.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/Explore/ExploreVideoItemView.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/arm64/ExploreViewController.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/Explore/ExploreViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/arm64/LoginViewController.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/LoginViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/arm64/NewsFeedCell.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/News\ Feed/NewsFeedCell.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/arm64/NewsFeedViewController.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/News\ Feed/NewsFeedViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/arm64/PostNewToolBar.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/Post\ New/PostNewToolBar.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/arm64/PostNewViewController.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/Post\ New/PostNewViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/arm64/SSPhotoCropperViewController.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/Post\ New/SSPhotoCropperViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/arm64/SuperTableCell.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Utils/Common/SuperTableCell.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/arm64/SuperView.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Utils/Common/SuperView.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/arm64/SuperViewController.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Utils/Common/SuperViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/arm64/UICheckboxButton.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Utils/UICheckboxButton/UICheckboxButton.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/arm64/UICustomProgressBar.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Utils/UICustomProgressBar/UICustomProgressBar.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/arm64/UICustomSearchBar.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Utils/UICustomSearchBar/UICustomSearchBar.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/arm64/UICustomSlider.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Utils/UICustomSlider/UICustomSlider.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/arm64/UICustomSwitch.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Utils/UICustomSwitch/UICustomSwitch.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/arm64/UICustomTabbarController.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Utils/UICustomTabbarController/UICustomTabbarController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/arm64/UIGroupCheckboxView.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Utils/UICheckboxButton/UIGroupCheckboxView.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/arm64/UIView+More.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Utils/Common/UIView+More.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/arm64/UploadPhotoViewController.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/Post\ New/UploadPhotoViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/arm64/UserProfileViewController.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/UserProfileViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/arm64/ViewController.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/ViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/arm64/ViewFileItemCell.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/View\ File/ViewFileItemCell.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/arm64/ViewFileViewController.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/View\ File/ViewFileViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/arm64/main.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/main.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7/ActivityFeedItemCell.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/Activity\ Feed/ActivityFeedItemCell.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7/ActivityFeedViewController.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/Activity\ Feed/ActivityFeedViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7/AppController.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/AppController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7/AppDelegate.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7/CustomNavViewController.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Utils/Navbar/CustomNavViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7/CustomNavigationBarView.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Utils/Navbar/CustomNavigationBarView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7/CustomSegmentedControl.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Utils/UICustomSegmented/CustomSegmentedControl.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7/ElementsViewController.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/Elements/ElementsViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7/ExploreVideoItemCell.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/Explore/ExploreVideoItemCell.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7/ExploreVideoItemView.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/Explore/ExploreVideoItemView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7/ExploreViewController.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/Explore/ExploreViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7/LoginViewController.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/LoginViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7/NewsFeedCell.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/News\ Feed/NewsFeedCell.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7/NewsFeedViewController.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/News\ Feed/NewsFeedViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7/PostNewToolBar.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/Post\ New/PostNewToolBar.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7/PostNewViewController.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/Post\ New/PostNewViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7/SSPhotoCropperViewController.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/Post\ New/SSPhotoCropperViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7/SuperTableCell.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Utils/Common/SuperTableCell.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7/SuperView.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Utils/Common/SuperView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7/SuperViewController.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Utils/Common/SuperViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7/UICheckboxButton.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Utils/UICheckboxButton/UICheckboxButton.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7/UICustomProgressBar.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Utils/UICustomProgressBar/UICustomProgressBar.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7/UICustomSearchBar.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Utils/UICustomSearchBar/UICustomSearchBar.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7/UICustomSlider.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Utils/UICustomSlider/UICustomSlider.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7/UICustomSwitch.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Utils/UICustomSwitch/UICustomSwitch.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7/UICustomTabbarController.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Utils/UICustomTabbarController/UICustomTabbarController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7/UIGroupCheckboxView.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Utils/UICheckboxButton/UIGroupCheckboxView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7/UIView+More.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Utils/Common/UIView+More.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7/UploadPhotoViewController.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/Post\ New/UploadPhotoViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7/UserProfileViewController.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/UserProfileViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7/ViewController.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/ViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7/ViewFileItemCell.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/View\ File/ViewFileItemCell.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7/ViewFileViewController.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/View\ File/ViewFileViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7/main.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
 
 CCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/ActivityFeedItemCell.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/Activity\ Feed/ActivityFeedItemCell.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s416445583.060569
@@ -2794,8 +3045,8 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection117"Compil
 b4994BC23-C5CA-4F73-98ED-A73E078B7FF8
 
 CCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/AppController.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/AppController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s416449038.343437
-e416449038.408496
+s416593444.899632
+e416593444.964963
 r1
 xCompileC
 xDerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/AppController.o
@@ -2842,16 +3093,16 @@ d/Users/sdickson/Documents/FacebookSDK/FacebookSDK.framework/Headers/FBSessionTo
 d/Users/sdickson/Documents/FacebookSDK/FacebookSDK.framework/Headers/FBSettings.h
 d/Users/sdickson/Documents/FacebookSDK/FacebookSDK.framework/Headers/FBUserSettingsViewController.h
 d/Users/sdickson/Documents/FacebookSDK/FacebookSDK.framework/Headers/NSError+FBError.h
-o/Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/AppController.m:81:15: warning: unused variable 'returnString' [-Wunused-variable]
+o/Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/AppController.m:112:15: warning: unused variable 'returnString' [-Wunused-variable]
 o    NSString* returnString = [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];
 o              ^
 o1 warning generated.
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/AppController.m235"CompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/AppController.o SocialShare/Classes/AppController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler0802580e82d2b841^b893680e82d2b841^-282"/Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/AppController.m:81:15: warning: unused variable 'returnString' [-Wunused-variable]    NSString* returnString = [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];              ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@30"Unused variable 'returnString'-416449038#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@83"file:///Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/AppController.m0000000000000000^80#14#80#14#1893#0#19"Unused Entity Issue--0#0#1#-19%DVTDocumentLocation4@83"file:///Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/AppController.m0000000000000000^3877"CompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/AppController.o SocialShare/Classes/AppController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sdickson/Code/Sublime/iOS/Sublime    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/sublime-generated-files.hmap -I/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/sublime-own-target-headers.hmap -I/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/sublime-all-target-headers.hmap -iquote /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/sublime-project-headers.hmap -I/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/DerivedSources/armv7s -I/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/DerivedSources -F/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos -F/Users/sdickson/Documents/FacebookSDK -F/Users/USMEM-W-003157/Documents/FacebookSDK -include /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/PrecompiledHeaders/sublime.temp_caseinsensitive_rename-Prefix-hbqxeqhjhcqxxbdwhbdbhazkrgpn/sublime.temp_caseinsensitive_rename-Prefix.pch -MMD -MT dependencies -MF /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/AppController.d --serialize-diagnostics /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/AppController.dia -c /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/AppController.m -o /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/AppController.o36"0D878204-889D-46B3-B7F3-D3121B201A0C-
-b387A421C-2070-4783-A38E-B3504BC87875
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/AppController.m235"CompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/AppController.o SocialShare/Classes/AppController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler0a64e624b6d4b841^1f81f724b6d4b841^-283"/Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/AppController.m:112:15: warning: unused variable 'returnString' [-Wunused-variable]    NSString* returnString = [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];              ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@30"Unused variable 'returnString'-416593444#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@83"file:///Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/AppController.m0000000000000000^111#14#111#14#2991#0#19"Unused Entity Issue--0#0#1#-19%DVTDocumentLocation4@83"file:///Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/AppController.m0000000000000000^3877"CompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/AppController.o SocialShare/Classes/AppController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sdickson/Code/Sublime/iOS/Sublime    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/sublime-generated-files.hmap -I/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/sublime-own-target-headers.hmap -I/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/sublime-all-target-headers.hmap -iquote /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/sublime-project-headers.hmap -I/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/DerivedSources/armv7s -I/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/DerivedSources -F/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos -F/Users/sdickson/Documents/FacebookSDK -F/Users/USMEM-W-003157/Documents/FacebookSDK -include /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/PrecompiledHeaders/sublime.temp_caseinsensitive_rename-Prefix-hbqxeqhjhcqxxbdwhbdbhazkrgpn/sublime.temp_caseinsensitive_rename-Prefix.pch -MMD -MT dependencies -MF /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/AppController.d --serialize-diagnostics /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/AppController.dia -c /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/AppController.m -o /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/AppController.o36"5866D1DC-0711-4BC9-84F1-4C8DD0F76033-
+bB82643D2-0EA0-4A63-B537-A73BAD3D69E6
 
 CCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/AppDelegate.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/AppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s416446464.843604
-e416446465.014179
+s416593374.000648
+e416593374.182110
 r1
 xCompileC
 xDerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/AppDelegate.o
@@ -2910,8 +3161,8 @@ d/Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/News Feed/Ne
 d/Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Utils/Common/SuperTableCell.h
 d/Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/AppController.h
 d/Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/LoginViewController.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/AppDelegate.m223"CompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/AppDelegate.o SocialShare/AppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compilerea08d80078d2b841^3fa8030178d2b841^---0#0#1#-19%DVTDocumentLocation2@73"file:///Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/AppDelegate.m0000000000000000^3849"CompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/AppDelegate.o SocialShare/AppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sdickson/Code/Sublime/iOS/Sublime    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/sublime-generated-files.hmap -I/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/sublime-own-target-headers.hmap -I/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/sublime-all-target-headers.hmap -iquote /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/sublime-project-headers.hmap -I/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/DerivedSources/armv7s -I/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/DerivedSources -F/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos -F/Users/sdickson/Documents/FacebookSDK -F/Users/USMEM-W-003157/Documents/FacebookSDK -include /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/PrecompiledHeaders/sublime.temp_caseinsensitive_rename-Prefix-hbqxeqhjhcqxxbdwhbdbhazkrgpn/sublime.temp_caseinsensitive_rename-Prefix.pch -MMD -MT dependencies -MF /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/AppDelegate.d --serialize-diagnostics /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/AppDelegate.dia -c /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/AppDelegate.m -o /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/AppDelegate.o36"FD2B42A9-541C-4D69-840C-B371822F07BE-
-bFA6D2084-D064-4829-B41E-88AAC36A8411
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/AppDelegate.m223"CompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/AppDelegate.o SocialShare/AppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compilerd13c00deb5d4b841^069f2edeb5d4b841^---0#0#1#-19%DVTDocumentLocation2@73"file:///Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/AppDelegate.m0000000000000000^3849"CompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/AppDelegate.o SocialShare/AppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sdickson/Code/Sublime/iOS/Sublime    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/sublime-generated-files.hmap -I/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/sublime-own-target-headers.hmap -I/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/sublime-all-target-headers.hmap -iquote /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/sublime-project-headers.hmap -I/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/DerivedSources/armv7s -I/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/DerivedSources -F/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos -F/Users/sdickson/Documents/FacebookSDK -F/Users/USMEM-W-003157/Documents/FacebookSDK -include /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/PrecompiledHeaders/sublime.temp_caseinsensitive_rename-Prefix-hbqxeqhjhcqxxbdwhbdbhazkrgpn/sublime.temp_caseinsensitive_rename-Prefix.pch -MMD -MT dependencies -MF /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/AppDelegate.d --serialize-diagnostics /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/AppDelegate.dia -c /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/AppDelegate.m -o /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/AppDelegate.o36"37998C66-2650-4311-921B-31F5C95C7FAB-
+bC2346B88-CCC2-4DC5-A249-0C35E9D13819
 
 CCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/CustomNavViewController.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Utils/Navbar/CustomNavViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s416445582.849307
@@ -3275,8 +3526,8 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Compil
 b4994BC23-C5CA-4F73-98ED-A73E078B7FF8
 
 CCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/LoginViewController.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/LoginViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s416449431.069246
-e416449431.136109
+s416593374.004278
+e416593374.154007
 r1
 xCompileC
 xDerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/LoginViewController.o
@@ -3324,8 +3575,8 @@ d/Users/sdickson/Documents/FacebookSDK/FacebookSDK.framework/Headers/FBSettings.
 d/Users/sdickson/Documents/FacebookSDK/FacebookSDK.framework/Headers/FBUserSettingsViewController.h
 d/Users/sdickson/Documents/FacebookSDK/FacebookSDK.framework/Headers/NSError+FBError.h
 d/Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/AppController.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/LoginViewController.m253"CompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/LoginViewController.o SocialShare/Classes/Views/LoginViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler36cb119783d2b841^62db229783d2b841^---0#0#1#-19%DVTDocumentLocation2@95"file:///Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/LoginViewController.m0000000000000000^3925"CompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/LoginViewController.o SocialShare/Classes/Views/LoginViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sdickson/Code/Sublime/iOS/Sublime    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/sublime-generated-files.hmap -I/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/sublime-own-target-headers.hmap -I/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/sublime-all-target-headers.hmap -iquote /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/sublime-project-headers.hmap -I/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/DerivedSources/armv7s -I/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/DerivedSources -F/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos -F/Users/sdickson/Documents/FacebookSDK -F/Users/USMEM-W-003157/Documents/FacebookSDK -include /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/PrecompiledHeaders/sublime.temp_caseinsensitive_rename-Prefix-hbqxeqhjhcqxxbdwhbdbhazkrgpn/sublime.temp_caseinsensitive_rename-Prefix.pch -MMD -MT dependencies -MF /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/LoginViewController.d --serialize-diagnostics /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/LoginViewController.dia -c /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/LoginViewController.m -o /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/LoginViewController.o36"4E7137BB-0ABF-4EC4-B68B-FC618778AF62-
-bC3069F5C-837D-42A0-A7CA-7458AD28B9D1
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/LoginViewController.m253"CompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/LoginViewController.o SocialShare/Classes/Views/LoginViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compilere12801deb5d4b841^876d27deb5d4b841^---0#0#1#-19%DVTDocumentLocation2@95"file:///Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/LoginViewController.m0000000000000000^3925"CompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/LoginViewController.o SocialShare/Classes/Views/LoginViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sdickson/Code/Sublime/iOS/Sublime    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/sublime-generated-files.hmap -I/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/sublime-own-target-headers.hmap -I/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/sublime-all-target-headers.hmap -iquote /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/sublime-project-headers.hmap -I/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/DerivedSources/armv7s -I/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/DerivedSources -F/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos -F/Users/sdickson/Documents/FacebookSDK -F/Users/USMEM-W-003157/Documents/FacebookSDK -include /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/PrecompiledHeaders/sublime.temp_caseinsensitive_rename-Prefix-hbqxeqhjhcqxxbdwhbdbhazkrgpn/sublime.temp_caseinsensitive_rename-Prefix.pch -MMD -MT dependencies -MF /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/LoginViewController.d --serialize-diagnostics /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/LoginViewController.dia -c /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/LoginViewController.m -o /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/LoginViewController.o36"C74C1F6E-3C3C-4CAC-AAB0-F5702F4175ED-
+bC2346B88-CCC2-4DC5-A249-0C35E9D13819
 
 CCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/NewsFeedCell.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/News\ Feed/NewsFeedCell.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s416445583.177276
@@ -3345,8 +3596,8 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile
 b4994BC23-C5CA-4F73-98ED-A73E078B7FF8
 
 CCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/NewsFeedViewController.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/News\ Feed/NewsFeedViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s416446464.848250
-e416446465.014218
+s416593374.007897
+e416593374.232713
 r1
 xCompileC
 xDerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/NewsFeedViewController.o
@@ -3407,8 +3658,8 @@ d/Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/Elements/Ele
 d/Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Utils/UICustomProgressBar/UICustomProgressBar.h
 d/Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Utils/UICheckboxButton/UICheckboxButton.h
 d/Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Utils/UICheckboxButton/UIGroupCheckboxView.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Compile /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/News Feed/NewsFeedViewController.m270"CompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/NewsFeedViewController.o SocialShare/Classes/Views/News\ Feed/NewsFeedViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compilerf642d90078d2b841^e9b7030178d2b841^---0#0#1#-19%DVTDocumentLocation2@110"file:///Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/News%20Feed/NewsFeedViewController.m0000000000000000^3965"CompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/NewsFeedViewController.o SocialShare/Classes/Views/News\ Feed/NewsFeedViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sdickson/Code/Sublime/iOS/Sublime    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/sublime-generated-files.hmap -I/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/sublime-own-target-headers.hmap -I/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/sublime-all-target-headers.hmap -iquote /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/sublime-project-headers.hmap -I/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/DerivedSources/armv7s -I/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/DerivedSources -F/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos -F/Users/sdickson/Documents/FacebookSDK -F/Users/USMEM-W-003157/Documents/FacebookSDK -include /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/PrecompiledHeaders/sublime.temp_caseinsensitive_rename-Prefix-hbqxeqhjhcqxxbdwhbdbhazkrgpn/sublime.temp_caseinsensitive_rename-Prefix.pch -MMD -MT dependencies -MF /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/NewsFeedViewController.d --serialize-diagnostics /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/NewsFeedViewController.dia -c /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/News\ Feed/NewsFeedViewController.m -o /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/NewsFeedViewController.o36"5F2264C9-4ACD-48A1-A032-A77D80472C79-
-bFA6D2084-D064-4829-B41E-88AAC36A8411
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Compile /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/News Feed/NewsFeedViewController.m270"CompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/NewsFeedViewController.o SocialShare/Classes/Views/News\ Feed/NewsFeedViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compilere12702deb5d4b841^92953bdeb5d4b841^---0#0#1#-19%DVTDocumentLocation2@110"file:///Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/News%20Feed/NewsFeedViewController.m0000000000000000^3965"CompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/NewsFeedViewController.o SocialShare/Classes/Views/News\ Feed/NewsFeedViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sdickson/Code/Sublime/iOS/Sublime    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/sublime-generated-files.hmap -I/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/sublime-own-target-headers.hmap -I/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/sublime-all-target-headers.hmap -iquote /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/sublime-project-headers.hmap -I/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/DerivedSources/armv7s -I/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/DerivedSources -F/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos -F/Users/sdickson/Documents/FacebookSDK -F/Users/USMEM-W-003157/Documents/FacebookSDK -include /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/PrecompiledHeaders/sublime.temp_caseinsensitive_rename-Prefix-hbqxeqhjhcqxxbdwhbdbhazkrgpn/sublime.temp_caseinsensitive_rename-Prefix.pch -MMD -MT dependencies -MF /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/NewsFeedViewController.d --serialize-diagnostics /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/NewsFeedViewController.dia -c /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/News\ Feed/NewsFeedViewController.m -o /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/NewsFeedViewController.o36"0D3DB6CF-93F3-4585-B382-ADE5EEE84A1B-
+bC2346B88-CCC2-4DC5-A249-0C35E9D13819
 
 CCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/PostNewToolBar.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/Post\ New/PostNewToolBar.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s416445583.189732
@@ -3465,8 +3716,8 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compil
 b4994BC23-C5CA-4F73-98ED-A73E078B7FF8
 
 CCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/PostNewViewController.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/Post\ New/PostNewViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s416446464.848956
-e416446465.015204
+s416593374.009440
+e416593374.203818
 r1
 xCompileC
 xDerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/PostNewViewController.o
@@ -3545,8 +3796,8 @@ o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Develope
 o- (void)dismissModalViewControllerAnimated:(BOOL)animated NS_DEPRECATED_IOS(2_0, 6_0);
 o^
 o3 warnings generated.
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Compile /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/Post New/PostNewViewController.m267"CompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/PostNewViewController.o SocialShare/Classes/Views/Post\ New/PostNewViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compilerb96fd90078d2b841^8ae4030178d2b841^-2384"/Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/Post New/PostNewViewController.m:321:11: warning: 'presentModalViewController:animated:' is deprecated: first deprecated in iOS 6.0 [-Wdeprecated-declarations]    [self presentModalViewController:_pickerController animated:YES];          ^In module 'UIKit' imported from /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/Post New/PostNewViewController.h:9:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIViewController.h:251:1: note: method 'presentModalViewController:animated:' declared here- (void)presentModalViewController:(UIViewController *)modalViewController animated:(BOOL)animated NS_DEPRECATED_IOS(2_0, 6_0);^/Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/Post New/PostNewViewController.m:443:19: warning: 'dismissModalViewControllerAnimated:' is deprecated: first deprecated in iOS 6.0 [-Wdeprecated-declarations]    [photoCropper dismissModalViewControllerAnimated:YES];                  ^In module 'UIKit' imported from /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/Post New/PostNewViewController.h:9:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIViewController.h:254:1: note: method 'dismissModalViewControllerAnimated:' declared here- (void)dismissModalViewControllerAnimated:(BOOL)animated NS_DEPRECATED_IOS(2_0, 6_0);^/Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/Post New/PostNewViewController.m:452:19: warning: 'dismissModalViewControllerAnimated:' is deprecated: first deprecated in iOS 6.0 [-Wdeprecated-declarations]    [photoCropper dismissModalViewControllerAnimated:YES];                  ^In module 'UIKit' imported from /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/Post New/PostNewViewController.h:9:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIViewController.h:254:1: note: method 'dismissModalViewControllerAnimated:' declared here- (void)dismissModalViewControllerAnimated:(BOOL)animated NS_DEPRECATED_IOS(2_0, 6_0);^3 warnings generated.-0#0#1#-19%DVTDocumentLocation2@108"file:///Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/Post%20New/PostNewViewController.m0000000000000000^3957"CompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/PostNewViewController.o SocialShare/Classes/Views/Post\ New/PostNewViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sdickson/Code/Sublime/iOS/Sublime    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/sublime-generated-files.hmap -I/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/sublime-own-target-headers.hmap -I/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/sublime-all-target-headers.hmap -iquote /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/sublime-project-headers.hmap -I/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/DerivedSources/armv7s -I/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/DerivedSources -F/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos -F/Users/sdickson/Documents/FacebookSDK -F/Users/USMEM-W-003157/Documents/FacebookSDK -include /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/PrecompiledHeaders/sublime.temp_caseinsensitive_rename-Prefix-hbqxeqhjhcqxxbdwhbdbhazkrgpn/sublime.temp_caseinsensitive_rename-Prefix.pch -MMD -MT dependencies -MF /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/PostNewViewController.d --serialize-diagnostics /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/PostNewViewController.dia -c /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/Post\ New/PostNewViewController.m -o /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/PostNewViewController.o36"7038C3C7-AC01-4C4E-84D7-A749EB0F64FA-
-bFA6D2084-D064-4829-B41E-88AAC36A8411
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Compile /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/Post New/PostNewViewController.m267"CompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/PostNewViewController.o SocialShare/Classes/Views/Post\ New/PostNewViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compilerc38302deb5d4b841^492d34deb5d4b841^-2384"/Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/Post New/PostNewViewController.m:321:11: warning: 'presentModalViewController:animated:' is deprecated: first deprecated in iOS 6.0 [-Wdeprecated-declarations]    [self presentModalViewController:_pickerController animated:YES];          ^In module 'UIKit' imported from /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/Post New/PostNewViewController.h:9:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIViewController.h:251:1: note: method 'presentModalViewController:animated:' declared here- (void)presentModalViewController:(UIViewController *)modalViewController animated:(BOOL)animated NS_DEPRECATED_IOS(2_0, 6_0);^/Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/Post New/PostNewViewController.m:443:19: warning: 'dismissModalViewControllerAnimated:' is deprecated: first deprecated in iOS 6.0 [-Wdeprecated-declarations]    [photoCropper dismissModalViewControllerAnimated:YES];                  ^In module 'UIKit' imported from /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/Post New/PostNewViewController.h:9:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIViewController.h:254:1: note: method 'dismissModalViewControllerAnimated:' declared here- (void)dismissModalViewControllerAnimated:(BOOL)animated NS_DEPRECATED_IOS(2_0, 6_0);^/Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/Post New/PostNewViewController.m:452:19: warning: 'dismissModalViewControllerAnimated:' is deprecated: first deprecated in iOS 6.0 [-Wdeprecated-declarations]    [photoCropper dismissModalViewControllerAnimated:YES];                  ^In module 'UIKit' imported from /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/Post New/PostNewViewController.h:9:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIViewController.h:254:1: note: method 'dismissModalViewControllerAnimated:' declared here- (void)dismissModalViewControllerAnimated:(BOOL)animated NS_DEPRECATED_IOS(2_0, 6_0);^3 warnings generated.3(36%IDEClangDiagnosticActivityLogMessage2@81"'presentModalViewController:animated:' is deprecated: first deprecated in iOS 6.0-416593374#18446744073709551615#0#1(2@59"Method 'presentModalViewController:animated:' declared here-416593374#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@177"file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIViewController.h0000000000000000^250#0#250#0#13300#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@108"file:///Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/Post%20New/PostNewViewController.m0000000000000000^320#10#320#10#10558#0#12"Deprecations--2@80"'dismissModalViewControllerAnimated:' is deprecated: first deprecated in iOS 6.0-416593374#18446744073709551615#0#1(2@58"Method 'dismissModalViewControllerAnimated:' declared here-416593374#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@177"file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIViewController.h0000000000000000^253#0#253#0#13586#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@108"file:///Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/Post%20New/PostNewViewController.m0000000000000000^442#18#442#18#14637#0#12"Deprecations--2@80"'dismissModalViewControllerAnimated:' is deprecated: first deprecated in iOS 6.0-416593374#18446744073709551615#0#1(2@58"Method 'dismissModalViewControllerAnimated:' declared here-416593374#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@177"file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIViewController.h0000000000000000^253#0#253#0#13586#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@108"file:///Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/Post%20New/PostNewViewController.m0000000000000000^451#18#451#18#14993#0#12"Deprecations--0#0#1#-19%DVTDocumentLocation4@108"file:///Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/Post%20New/PostNewViewController.m0000000000000000^3957"CompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/PostNewViewController.o SocialShare/Classes/Views/Post\ New/PostNewViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sdickson/Code/Sublime/iOS/Sublime    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/sublime-generated-files.hmap -I/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/sublime-own-target-headers.hmap -I/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/sublime-all-target-headers.hmap -iquote /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/sublime-project-headers.hmap -I/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/DerivedSources/armv7s -I/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/DerivedSources -F/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos -F/Users/sdickson/Documents/FacebookSDK -F/Users/USMEM-W-003157/Documents/FacebookSDK -include /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/PrecompiledHeaders/sublime.temp_caseinsensitive_rename-Prefix-hbqxeqhjhcqxxbdwhbdbhazkrgpn/sublime.temp_caseinsensitive_rename-Prefix.pch -MMD -MT dependencies -MF /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/PostNewViewController.d --serialize-diagnostics /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/PostNewViewController.dia -c /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/Post\ New/PostNewViewController.m -o /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/PostNewViewController.o36"CF0DA03F-F3E9-49ED-871D-DBD20D0A5D03-
+bC2346B88-CCC2-4DC5-A249-0C35E9D13819
 
 CCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/SSPhotoCropperViewController.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/Post\ New/SSPhotoCropperViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s416445582.683237
@@ -3807,8 +4058,8 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Compil
 b4994BC23-C5CA-4F73-98ED-A73E078B7FF8
 
 CCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/UICustomTabbarController.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Utils/UICustomTabbarController/UICustomTabbarController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s416446464.846202
-e416446465.014205
+s416595646.783719
+e416595648.002191
 r1
 xCompileC
 xDerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/UICustomTabbarController.o
@@ -3876,8 +4127,9 @@ d/Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/Post New/Pos
 d/Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/Post New/SSPhotoCropperViewController.h
 d/Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/Post New/UploadPhotoViewController.h
 d/Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/View File/ViewFileViewController.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection126"Compile /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Utils/UICustomTabbarController/UICustomTabbarController.m288"CompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/UICustomTabbarController.o SocialShare/Classes/Utils/UICustomTabbarController/UICustomTabbarController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler8cbcd80078d2b841^b7b3030178d2b841^---0#0#1#-19%DVTDocumentLocation2@125"file:///Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Utils/UICustomTabbarController/UICustomTabbarController.m0000000000000000^4005"CompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/UICustomTabbarController.o SocialShare/Classes/Utils/UICustomTabbarController/UICustomTabbarController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sdickson/Code/Sublime/iOS/Sublime    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/sublime-generated-files.hmap -I/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/sublime-own-target-headers.hmap -I/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/sublime-all-target-headers.hmap -iquote /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/sublime-project-headers.hmap -I/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/DerivedSources/armv7s -I/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/DerivedSources -F/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos -F/Users/sdickson/Documents/FacebookSDK -F/Users/USMEM-W-003157/Documents/FacebookSDK -include /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/PrecompiledHeaders/sublime.temp_caseinsensitive_rename-Prefix-hbqxeqhjhcqxxbdwhbdbhazkrgpn/sublime.temp_caseinsensitive_rename-Prefix.pch -MMD -MT dependencies -MF /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/UICustomTabbarController.d --serialize-diagnostics /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/UICustomTabbarController.dia -c /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Utils/UICustomTabbarController/UICustomTabbarController.m -o /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/UICustomTabbarController.o36"06654450-C49E-4D99-A31B-5D72C838471B-
-bFA6D2084-D064-4829-B41E-88AAC36A8411
+d/Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/UserProfileViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection126"Compile /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Utils/UICustomTabbarController/UICustomTabbarController.m288"CompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/UICustomTabbarController.o SocialShare/Classes/Utils/UICustomTabbarController/UICustomTabbarController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler03b1c8bebed4b841^939000c0bed4b841^---0#0#1#-19%DVTDocumentLocation2@125"file:///Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Utils/UICustomTabbarController/UICustomTabbarController.m0000000000000000^4005"CompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/UICustomTabbarController.o SocialShare/Classes/Utils/UICustomTabbarController/UICustomTabbarController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sdickson/Code/Sublime/iOS/Sublime    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/sublime-generated-files.hmap -I/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/sublime-own-target-headers.hmap -I/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/sublime-all-target-headers.hmap -iquote /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/sublime-project-headers.hmap -I/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/DerivedSources/armv7s -I/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/DerivedSources -F/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos -F/Users/sdickson/Documents/FacebookSDK -F/Users/USMEM-W-003157/Documents/FacebookSDK -include /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/PrecompiledHeaders/sublime.temp_caseinsensitive_rename-Prefix-hbqxeqhjhcqxxbdwhbdbhazkrgpn/sublime.temp_caseinsensitive_rename-Prefix.pch -MMD -MT dependencies -MF /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/UICustomTabbarController.d --serialize-diagnostics /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/UICustomTabbarController.dia -c /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Utils/UICustomTabbarController/UICustomTabbarController.m -o /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/UICustomTabbarController.o36"D0868B77-5E65-49AA-AF94-910A3AB79CAD-
+b798E1D1B-71CF-4593-8B75-90244951011D
 
 CCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/UIGroupCheckboxView.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Utils/UICheckboxButton/UIGroupCheckboxView.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s416445582.863702
@@ -3913,8 +4165,8 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile
 b4994BC23-C5CA-4F73-98ED-A73E078B7FF8
 
 CCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/UploadPhotoViewController.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/Post\ New/UploadPhotoViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s416446464.846741
-e416446465.014210
+s416593374.005693
+e416593374.153572
 r1
 xCompileC
 xDerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/UploadPhotoViewController.o
@@ -3962,8 +4214,61 @@ d/Users/sdickson/Documents/FacebookSDK/FacebookSDK.framework/Headers/FBSessionTo
 d/Users/sdickson/Documents/FacebookSDK/FacebookSDK.framework/Headers/FBSettings.h
 d/Users/sdickson/Documents/FacebookSDK/FacebookSDK.framework/Headers/FBUserSettingsViewController.h
 d/Users/sdickson/Documents/FacebookSDK/FacebookSDK.framework/Headers/NSError+FBError.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Compile /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/Post New/UploadPhotoViewController.m275"CompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/UploadPhotoViewController.o SocialShare/Classes/Views/Post\ New/UploadPhotoViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler87dcd80078d2b841^79ae030178d2b841^---0#0#1#-19%DVTDocumentLocation2@112"file:///Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/Post%20New/UploadPhotoViewController.m0000000000000000^3981"CompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/UploadPhotoViewController.o SocialShare/Classes/Views/Post\ New/UploadPhotoViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sdickson/Code/Sublime/iOS/Sublime    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/sublime-generated-files.hmap -I/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/sublime-own-target-headers.hmap -I/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/sublime-all-target-headers.hmap -iquote /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/sublime-project-headers.hmap -I/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/DerivedSources/armv7s -I/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/DerivedSources -F/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos -F/Users/sdickson/Documents/FacebookSDK -F/Users/USMEM-W-003157/Documents/FacebookSDK -include /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/PrecompiledHeaders/sublime.temp_caseinsensitive_rename-Prefix-hbqxeqhjhcqxxbdwhbdbhazkrgpn/sublime.temp_caseinsensitive_rename-Prefix.pch -MMD -MT dependencies -MF /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/UploadPhotoViewController.d --serialize-diagnostics /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/UploadPhotoViewController.dia -c /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/Post\ New/UploadPhotoViewController.m -o /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/UploadPhotoViewController.o36"7926E947-C458-4E30-A7B5-D22638F5A690-
-bFA6D2084-D064-4829-B41E-88AAC36A8411
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Compile /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/Post New/UploadPhotoViewController.m275"CompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/UploadPhotoViewController.o SocialShare/Classes/Views/Post\ New/UploadPhotoViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compilerd28c01deb5d4b841^d35027deb5d4b841^---0#0#1#-19%DVTDocumentLocation2@112"file:///Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/Post%20New/UploadPhotoViewController.m0000000000000000^3981"CompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/UploadPhotoViewController.o SocialShare/Classes/Views/Post\ New/UploadPhotoViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sdickson/Code/Sublime/iOS/Sublime    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/sublime-generated-files.hmap -I/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/sublime-own-target-headers.hmap -I/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/sublime-all-target-headers.hmap -iquote /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/sublime-project-headers.hmap -I/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/DerivedSources/armv7s -I/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/DerivedSources -F/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos -F/Users/sdickson/Documents/FacebookSDK -F/Users/USMEM-W-003157/Documents/FacebookSDK -include /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/PrecompiledHeaders/sublime.temp_caseinsensitive_rename-Prefix-hbqxeqhjhcqxxbdwhbdbhazkrgpn/sublime.temp_caseinsensitive_rename-Prefix.pch -MMD -MT dependencies -MF /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/UploadPhotoViewController.d --serialize-diagnostics /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/UploadPhotoViewController.dia -c /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/Post\ New/UploadPhotoViewController.m -o /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/UploadPhotoViewController.o36"42DB7767-0C8C-48C1-99E6-46113C181C91-
+bC2346B88-CCC2-4DC5-A249-0C35E9D13819
+
+CCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/UserProfileViewController.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/UserProfileViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s416598099.233905
+e416598099.377519
+r1
+xCompileC
+xDerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/UserProfileViewController.o
+x/Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/UserProfileViewController.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/UserProfileViewController.m
+d/Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/UserProfileViewController.h
+d/Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/AppController.h
+d/Users/sdickson/Documents/FacebookSDK/FacebookSDK.framework/Headers/FacebookSDK.h
+d/Users/sdickson/Documents/FacebookSDK/FacebookSDK.framework/Headers/FBAccessTokenData.h
+d/Users/sdickson/Documents/FacebookSDK/FacebookSDK.framework/Headers/FBSession.h
+d/Users/sdickson/Documents/FacebookSDK/FacebookSDK.framework/Headers/FBAppCall.h
+d/Users/sdickson/Documents/FacebookSDK/FacebookSDK.framework/Headers/FBAppLinkData.h
+d/Users/sdickson/Documents/FacebookSDK/FacebookSDK.framework/Headers/FBDialogsData.h
+d/Users/sdickson/Documents/FacebookSDK/FacebookSDK.framework/Headers/FBAppEvents.h
+d/Users/sdickson/Documents/FacebookSDK/FacebookSDK.framework/Headers/FBCacheDescriptor.h
+d/Users/sdickson/Documents/FacebookSDK/FacebookSDK.framework/Headers/FBDialogs.h
+d/Users/sdickson/Documents/FacebookSDK/FacebookSDK.framework/Headers/FBOpenGraphActionShareDialogParams.h
+d/Users/sdickson/Documents/FacebookSDK/FacebookSDK.framework/Headers/FBDialogsParams.h
+d/Users/sdickson/Documents/FacebookSDK/FacebookSDK.framework/Headers/FBOpenGraphAction.h
+d/Users/sdickson/Documents/FacebookSDK/FacebookSDK.framework/Headers/FBGraphObject.h
+d/Users/sdickson/Documents/FacebookSDK/FacebookSDK.framework/Headers/FBShareDialogParams.h
+d/Users/sdickson/Documents/FacebookSDK/FacebookSDK.framework/Headers/FBShareDialogPhotoParams.h
+d/Users/sdickson/Documents/FacebookSDK/FacebookSDK.framework/Headers/FBError.h
+d/Users/sdickson/Documents/FacebookSDK/FacebookSDK.framework/Headers/FBErrorUtility.h
+d/Users/sdickson/Documents/FacebookSDK/FacebookSDK.framework/Headers/FBFrictionlessRecipientCache.h
+d/Users/sdickson/Documents/FacebookSDK/FacebookSDK.framework/Headers/FBRequest.h
+d/Users/sdickson/Documents/FacebookSDK/FacebookSDK.framework/Headers/FBOpenGraphObject.h
+d/Users/sdickson/Documents/FacebookSDK/FacebookSDK.framework/Headers/FBRequestConnection.h
+d/Users/sdickson/Documents/FacebookSDK/FacebookSDK.framework/Headers/FBWebDialogs.h
+d/Users/sdickson/Documents/FacebookSDK/FacebookSDK.framework/Headers/FBFriendPickerViewController.h
+d/Users/sdickson/Documents/FacebookSDK/FacebookSDK.framework/Headers/FBGraphUser.h
+d/Users/sdickson/Documents/FacebookSDK/FacebookSDK.framework/Headers/FBGraphPlace.h
+d/Users/sdickson/Documents/FacebookSDK/FacebookSDK.framework/Headers/FBGraphLocation.h
+d/Users/sdickson/Documents/FacebookSDK/FacebookSDK.framework/Headers/FBViewController.h
+d/Users/sdickson/Documents/FacebookSDK/FacebookSDK.framework/Headers/FBInsights.h
+d/Users/sdickson/Documents/FacebookSDK/FacebookSDK.framework/Headers/FBLoginView.h
+d/Users/sdickson/Documents/FacebookSDK/FacebookSDK.framework/Headers/FBNativeDialogs.h
+d/Users/sdickson/Documents/FacebookSDK/FacebookSDK.framework/Headers/FBPlacePickerViewController.h
+d/Users/sdickson/Documents/FacebookSDK/FacebookSDK.framework/Headers/FBProfilePictureView.h
+d/Users/sdickson/Documents/FacebookSDK/FacebookSDK.framework/Headers/FBSessionTokenCachingStrategy.h
+d/Users/sdickson/Documents/FacebookSDK/FacebookSDK.framework/Headers/FBSettings.h
+d/Users/sdickson/Documents/FacebookSDK/FacebookSDK.framework/Headers/FBUserSettingsViewController.h
+d/Users/sdickson/Documents/FacebookSDK/FacebookSDK.framework/Headers/NSError+FBError.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Compile /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/UserProfileViewController.m265"CompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/UserProfileViewController.o SocialShare/Classes/Views/UserProfileViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compilerbaf43b53c8d4b841^8ba56053c8d4b841^---0#0#1#-19%DVTDocumentLocation2@101"file:///Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/UserProfileViewController.m0000000000000000^3961"CompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/UserProfileViewController.o SocialShare/Classes/Views/UserProfileViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sdickson/Code/Sublime/iOS/Sublime    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/sublime-generated-files.hmap -I/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/sublime-own-target-headers.hmap -I/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/sublime-all-target-headers.hmap -iquote /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/sublime-project-headers.hmap -I/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/DerivedSources/armv7s -I/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/DerivedSources -F/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos -F/Users/sdickson/Documents/FacebookSDK -F/Users/USMEM-W-003157/Documents/FacebookSDK -include /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/PrecompiledHeaders/sublime.temp_caseinsensitive_rename-Prefix-hbqxeqhjhcqxxbdwhbdbhazkrgpn/sublime.temp_caseinsensitive_rename-Prefix.pch -MMD -MT dependencies -MF /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/UserProfileViewController.d --serialize-diagnostics /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/UserProfileViewController.dia -c /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Views/UserProfileViewController.m -o /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/UserProfileViewController.o36"2CFE472F-26FB-4BCC-8C9F-21C3209B8566-
+bCD7CE93C-807E-45AD-A031-E2B2B377F3F8
 
 CCompileC DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/ViewController.o /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/ViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s416445582.682844
@@ -4150,13 +4455,15 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile
 b4994BC23-C5CA-4F73-98ED-A73E078B7FF8
 
 CCompileStoryboard /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/en.lproj/MainStoryboard.storyboard
-s416448983.586330
-e416448984.689466
+s416598100.077672
+e416598111.235836
 r1
 xCompileStoryboard
 x/Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/en.lproj/MainStoryboard.storyboard
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"CompileStoryboard SocialShare/en.lproj/MainStoryboard.storyboard64"CompileStoryboard SocialShare/en.lproj/MainStoryboard.storyboardfa2596d781d2b841^8883b0d881d2b841^---0#0#1#-19%DVTDocumentLocation2@94"file:///Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/en.lproj/MainStoryboard.storyboard0000000000000000^838"CompileStoryboard SocialShare/en.lproj/MainStoryboard.storyboard    cd /Users/sdickson/Code/Sublime/iOS/Sublime    export IBSC_MINIMUM_COMPATIBILITY_VERSION=7.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.0 --output-format human-readable-text --compile /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/en.lproj/MainStoryboard.storyboardc /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/en.lproj/MainStoryboard.storyboard36"C2963F5B-600C-4627-A8BA-F243DA8BE94E-
-b24E3B9E6-F23A-49D1-AF04-73A41D032A0E
+o/* com.apple.ibtool.document.warnings */
+o/Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/en.lproj/MainStoryboard.storyboard:d3m-cr-NtB: warning: Highlighted property is only for display within Interface Builder (The value set for this property will not be present at runtime) [5]
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"CompileStoryboard SocialShare/en.lproj/MainStoryboard.storyboard64"CompileStoryboard SocialShare/en.lproj/MainStoryboard.storyboardb7ed1354c8d4b841^aa603c5fc8d4b841^-281"/* com.apple.ibtool.document.warnings *//Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/en.lproj/MainStoryboard.storyboard:d3m-cr-NtB: warning: Highlighted property is only for display within Interface Builder (The value set for this property will not be present at runtime)1(21%IDEActivityLogMessage2@130"Highlighted property is only for display within Interface Builder (The value set for this property will not be present at runtime)174"/Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/en.lproj/MainStoryboard.storyboard:d3m-cr-NtB: warning: Highlighted property is only for display within Interface Builder416598111#18446744073709551615#0#-1#-23%DVTTextDocumentLocation3@94"file:///Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/en.lproj/MainStoryboard.storyboard0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#21"Attribute Unavailable--0#0#1#-19%DVTDocumentLocation4@94"file:///Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/en.lproj/MainStoryboard.storyboard0000000000000000^838"CompileStoryboard SocialShare/en.lproj/MainStoryboard.storyboard    cd /Users/sdickson/Code/Sublime/iOS/Sublime    export IBSC_MINIMUM_COMPATIBILITY_VERSION=7.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.0 --output-format human-readable-text --compile /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/en.lproj/MainStoryboard.storyboardc /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/en.lproj/MainStoryboard.storyboard36"1ECD7BC1-B88F-444C-A66E-A78F5709801F-
+bCD7CE93C-807E-45AD-A031-E2B2B377F3F8
 
 CCopyPNGFile /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/Default-568h@2x.png SocialShare/Default-568h@2x.png
 r0
@@ -4246,9 +4553,39 @@ r0
 CCopyPNGFile /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/explore-photoexample.png SocialShare/Classes/Views/Explore/Images/explore-photoexample.png
 r0
 
+CCopyPNGFile /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/following_button.png SocialShare/Resources/following_button.png
+s416590585.403912
+e416590585.840988
+r1
+xCopyPNGFile
+x/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/following_button.png
+xSocialShare/Resources/following_button.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection137"CopyPNGFile DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/following_button.png SocialShare/Resources/following_button.png137"CopyPNGFile DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/following_button.png SocialShare/Resources/following_button.pngc57267f9aad4b841^a14cd7f9aad4b841^---0#0#1#-19%DVTDocumentLocation2@90"file:///Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Resources/following_button.png0000000000000000^693"CopyPNGFile DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/following_button.png SocialShare/Resources/following_button.png    cd /Users/sdickson/Code/Sublime/iOS/Sublime    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Resources/following_button.png /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/following_button.png36"A4022A8E-1F74-48BA-8638-04822912D3B9-
+b7F82D8E8-69FD-4E82-9E96-0A1AE58798C6
+
+CCopyPNGFile /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/move_left.png SocialShare/Resources/move_left.png
+s416595040.418113
+e416595040.643053
+r1
+xCopyPNGFile
+x/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/move_left.png
+xSocialShare/Resources/move_left.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection123"CopyPNGFile DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/move_left.png SocialShare/Resources/move_left.png123"CopyPNGFile DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/move_left.png SocialShare/Resources/move_left.png7a1b6b60bcd4b841^519fa460bcd4b841^---0#0#1#-19%DVTDocumentLocation2@83"file:///Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Resources/move_left.png0000000000000000^665"CopyPNGFile DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/move_left.png SocialShare/Resources/move_left.png    cd /Users/sdickson/Code/Sublime/iOS/Sublime    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Resources/move_left.png /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/move_left.png36"36A83943-67C7-4573-8D47-4E1BD4503DA7-
+bDFDE7691-7B01-454A-94FB-99EC6D490D3A
+
+CCopyPNGFile /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/move_right.png SocialShare/Resources/move_right.png
+s416595649.146866
+e416595649.275987
+r1
+xCopyPNGFile
+x/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/move_right.png
+xSocialShare/Resources/move_right.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection125"CopyPNGFile DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/move_right.png SocialShare/Resources/move_right.png125"CopyPNGFile DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/move_right.png SocialShare/Resources/move_right.png4ca725c1bed4b841^80b546c1bed4b841^---0#0#1#-19%DVTDocumentLocation2@84"file:///Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Resources/move_right.png0000000000000000^669"CopyPNGFile DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/move_right.png SocialShare/Resources/move_right.png    cd /Users/sdickson/Code/Sublime/iOS/Sublime    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Resources/move_right.png /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/move_right.png36"A3F1BF10-7A2F-4E91-994F-FA723D8681B3-
+b798E1D1B-71CF-4593-8B75-90244951011D
+
 CCopyPNGFile /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/nav-bg.png SocialShare/Classes/Utils/Navbar/Images/nav-bg.png
-s416449448.777147
-e416449448.794768
+s416598100.077827
+e416598100.438775
 r1
 xCopyPNGFile
 x/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/nav-bg.png
@@ -4258,8 +4595,8 @@ oWhile reading /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Util
 o   Not a PNG file..
 o
 oCould not find file: /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/nav-bg.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection135"CopyPNGFile DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/nav-bg.png SocialShare/Classes/Utils/Navbar/Images/nav-bg.png135"CopyPNGFile DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/nav-bg.png SocialShare/Classes/Utils/Navbar/Images/nav-bg.pngfcfdc6a883d2b841^3678cba883d2b841^-472"While reading /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Utils/Navbar/Images/nav-bg.png pngcrush caught libpng error:   Not a PNG file..Could not find file: /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/nav-bg.pngCommand /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng emitted errors but did not return a nonzero exit code to indicate failure3(21%IDEActivityLogMessage2@135"While reading /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Utils/Navbar/Images/nav-bg.png pngcrush caught libpng error:-416449448#18446744073709551615#0#-2#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#17"CopyPNGFile Error--2@134"Could not find file: /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/nav-bg.png-416449448#18446744073709551615#0#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#17"CopyPNGFile Error--2@178"Command /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng emitted errors but did not return a nonzero exit code to indicate failure-416449448#18446744073709551615#0#-2#--17"CopyPNGFile Error--0#0#1#-19%DVTDocumentLocation4@98"file:///Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Utils/Navbar/Images/nav-bg.png0000000000000000^689"CopyPNGFile DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/nav-bg.png SocialShare/Classes/Utils/Navbar/Images/nav-bg.png    cd /Users/sdickson/Code/Sublime/iOS/Sublime    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Utils/Navbar/Images/nav-bg.png /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/nav-bg.png36"C7FD5035-34BA-4472-9161-B61CF455180C-
-b44668B84-6063-4DD2-B2B6-D5076CE54542
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection135"CopyPNGFile DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/nav-bg.png SocialShare/Classes/Utils/Navbar/Images/nav-bg.png135"CopyPNGFile DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/nav-bg.png SocialShare/Classes/Utils/Navbar/Images/nav-bg.png49f71354c8d4b841^00557054c8d4b841^-472"While reading /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Utils/Navbar/Images/nav-bg.png pngcrush caught libpng error:   Not a PNG file..Could not find file: /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/nav-bg.pngCommand /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng emitted errors but did not return a nonzero exit code to indicate failure3(21%IDEActivityLogMessage2@135"While reading /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Utils/Navbar/Images/nav-bg.png pngcrush caught libpng error:-416598100#18446744073709551615#0#-2#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#17"CopyPNGFile Error--2@134"Could not find file: /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/nav-bg.png-416598100#18446744073709551615#0#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#17"CopyPNGFile Error--2@178"Command /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng emitted errors but did not return a nonzero exit code to indicate failure-416598100#18446744073709551615#0#-2#--17"CopyPNGFile Error--0#0#1#-19%DVTDocumentLocation4@98"file:///Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Utils/Navbar/Images/nav-bg.png0000000000000000^689"CopyPNGFile DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/nav-bg.png SocialShare/Classes/Utils/Navbar/Images/nav-bg.png    cd /Users/sdickson/Code/Sublime/iOS/Sublime    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/Classes/Utils/Navbar/Images/nav-bg.png /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/nav-bg.png36"A0B9CDAF-D6E5-4AA5-9D16-AA4986BC9787-
+bCD7CE93C-807E-45AD-A031-E2B2B377F3F8
 
 CCopyPNGFile /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/nav-bg@2x.png SocialShare/Classes/Utils/Navbar/Images/nav-bg@2x.png
 r0
@@ -4630,6 +4967,9 @@ r0
 CCopyPNGFile /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/toolbar-pin@2x.png SocialShare/Classes/Views/Post\ New/Images/toolbar-pin@2x.png
 r0
 
+CCopyPNGFile /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/user_profile_photo.png SocialShare/Resources/user_profile_photo.png
+r0
+
 CCopyPNGFile /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/viewfile-button-comment.png SocialShare/Classes/Views/View\ File/Images/viewfile-button-comment.png
 r0
 
@@ -4691,19 +5031,31 @@ r0
 CCpResource SocialShare/Resources/facebooklogin.jpeg DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/facebooklogin.jpeg
 r0
 
+CCreateUniversalBinary /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/sublime normal armv7\ armv7s\ arm64
+r0
+
 CGenerateDSYMFile /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app.dSYM /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/sublime
-s416449431.217325
-e416449431.272960
+s416598099.938603
+e416598100.076978
 r1
 xGenerateDSYMFile
 x/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app.dSYM
 x/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/sublime
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Generate /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app.dSYM153"GenerateDSYMFile DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app.dSYM DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/sublimea3ac379783d2b841^c1e1459783d2b841^---0#0#1#-19%DVTDocumentLocation2@115"file:///Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app.dSYM/0000000000000000^712"GenerateDSYMFile DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app.dSYM DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/sublime    cd /Users/sdickson/Code/Sublime/iOS/Sublime    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/sublime -o /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app.dSYM36"051456BD-38CB-4634-85E0-73859A84BF6A-
-bC3069F5C-837D-42A0-A7CA-7458AD28B9D1
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Generate /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app.dSYM153"GenerateDSYMFile DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app.dSYM DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/sublime6152f053c8d4b841^e1b51354c8d4b841^---0#0#1#-19%DVTDocumentLocation2@115"file:///Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app.dSYM/0000000000000000^712"GenerateDSYMFile DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app.dSYM DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/sublime    cd /Users/sdickson/Code/Sublime/iOS/Sublime    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/sublime -o /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app.dSYM36"87C94087-ED19-40DD-8FA1-EFCE06277982-
+bCD7CE93C-807E-45AD-A031-E2B2B377F3F8
+
+CLd /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/arm64/sublime normal arm64
+r0
+
+CLd /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7/sublime normal armv7
+r0
+
+CLd /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/sublime normal armv7s
+r0
 
 CLd /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/sublime normal armv7s
-s416449431.138151
-e416449431.216536
+s416598099.379639
+e416598099.937736
 r1
 xLd
 x/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/sublime
@@ -4711,6 +5063,7 @@ xnormal
 xarmv7s
 d/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/sublime.LinkFileList
 d/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/main.o
+d/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/UserProfileViewController.o
 d/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/AppDelegate.o
 d/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/ViewController.o
 d/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/SSPhotoCropperViewController.o
@@ -4768,6 +5121,8 @@ d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Develope
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreText.framework/CoreText
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcache.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcommonCrypto.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcompiler_rt.dylib
@@ -4796,21 +5151,25 @@ d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Develope
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_stats.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libunwind.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libxpc.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
 old: warning: directory not found for option '-F/Users/USMEM-W-003157/Documents/FacebookSDK'
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Link /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/sublime86"Ld DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/sublime normal armv7sfd69239783d2b841^5870379783d2b841^-92"ld: warning: directory not found for option '-F/Users/USMEM-W-003157/Documents/FacebookSDK'1(21%IDEActivityLogMessage2@78"Directory not found for option '-F/Users/USMEM-W-003157/Documents/FacebookSDK'-416449431#0#92#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#27"Apple Mach-O Linker Warning--0#0#1#--1536"Ld DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/sublime normal armv7s    cd /Users/sdickson/Code/Sublime/iOS/Sublime    export IPHONEOS_DEPLOYMENT_TARGET=7.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7s -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos -F/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos -F/Users/sdickson/Documents/FacebookSDK -F/Users/USMEM-W-003157/Documents/FacebookSDK -filelist /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/sublime.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=7.0 -framework CoreImage -framework FacebookSDK -framework UIKit -framework Foundation -framework CoreGraphics -Xlinker -dependency_info -Xlinker /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/sublime_dependency_info.dat -o /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/sublime36"E4ABE48F-31AC-4966-AF1B-C92319CBAD83-
-bC3069F5C-837D-42A0-A7CA-7458AD28B9D1
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Link /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/sublime86"Ld DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/sublime normal armv7s323d6153c8d4b841^990ff053c8d4b841^-92"ld: warning: directory not found for option '-F/Users/USMEM-W-003157/Documents/FacebookSDK'1(21%IDEActivityLogMessage2@78"Directory not found for option '-F/Users/USMEM-W-003157/Documents/FacebookSDK'-416598099#0#92#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#27"Apple Mach-O Linker Warning--0#0#1#--1536"Ld DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/sublime normal armv7s    cd /Users/sdickson/Code/Sublime/iOS/Sublime    export IPHONEOS_DEPLOYMENT_TARGET=7.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7s -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos -F/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos -F/Users/sdickson/Documents/FacebookSDK -F/Users/USMEM-W-003157/Documents/FacebookSDK -filelist /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/sublime.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=7.0 -framework CoreImage -framework FacebookSDK -framework UIKit -framework Foundation -framework CoreGraphics -Xlinker -dependency_info -Xlinker /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/Objects-normal/armv7s/sublime_dependency_info.dat -o /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/sublime36"8FAB55F3-8AC4-42A2-8ED1-E579FEF27BE2-
+bCD7CE93C-807E-45AD-A031-E2B2B377F3F8
 
 CProcessInfoPlistFile /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/Info.plist /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/sublime.Info.plist
-s416445581.141022
-e416445581.142403
+s416527821.657622
+e416527821.659091
 r1
 xProcessInfoPlistFile
 x/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/Info.plist
 x/Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/sublime.Info.plist
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Process /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/sublime.Info.plist124"ProcessInfoPlistFile DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/Info.plist SocialShare/sublime.Info.plistd524248d74d2b841^567f248d74d2b841^---0#0#1#-19%DVTDocumentLocation2@78"file:///Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/sublime.Info.plist0000000000000000^899"ProcessInfoPlistFile DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/Info.plist SocialShare/sublime.Info.plist    cd /Users/sdickson/Code/Sublime/iOS/Sublime    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/sublime.Info.plist -genpkginfo /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/ResourceRules.plist -o /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/Info.plist36"07B1843B-F2E5-4D46-9E59-6DC3120E0E66-
-b4994BC23-C5CA-4F73-98ED-A73E078B7FF8
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Process /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/sublime.Info.plist124"ProcessInfoPlistFile DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/Info.plist SocialShare/sublime.Info.plist8864a8cdb5d3b841^69e3a8cdb5d3b841^---0#0#1#-19%DVTDocumentLocation2@78"file:///Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/sublime.Info.plist0000000000000000^899"ProcessInfoPlistFile DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/Info.plist SocialShare/sublime.Info.plist    cd /Users/sdickson/Code/Sublime/iOS/Sublime    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/sublime.Info.plist -genpkginfo /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/ResourceRules.plist -o /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/Info.plist36"23AC66DA-AF80-43F3-82EA-005F91AA8E49-
+b471FF0CD-E3B4-48EB-B474-38942074BFE3
+
+CProcessPCH /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/PrecompiledHeaders/sublime.temp_caseinsensitive_rename-Prefix-drmgglbspxfqgvexhmcocqkifmlm/sublime.temp_caseinsensitive_rename-Prefix.pch.pch SocialShare/sublime.temp_caseinsensitive_rename-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessPCH /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/PrecompiledHeaders/sublime.temp_caseinsensitive_rename-Prefix-gabrmzaevuvliqgzhaqjofcqgpsv/sublime.temp_caseinsensitive_rename-Prefix.pch.pch SocialShare/sublime.temp_caseinsensitive_rename-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
 
 CProcessPCH /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/PrecompiledHeaders/sublime.temp_caseinsensitive_rename-Prefix-hbqxeqhjhcqxxbdwhbdbhazkrgpn/sublime.temp_caseinsensitive_rename-Prefix.pch.pch SocialShare/sublime.temp_caseinsensitive_rename-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s416445581.142999
@@ -4827,28 +5186,34 @@ d/Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/sublime.temp_caseinsensiti
 lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Precompile SocialShare/sublime.temp_caseinsensitive_rename-Prefix.pch321"ProcessPCH DerivedData/sublime/Build/Intermediates/PrecompiledHeaders/sublime.temp_caseinsensitive_rename-Prefix-hbqxeqhjhcqxxbdwhbdbhazkrgpn/sublime.temp_caseinsensitive_rename-Prefix.pch.pch SocialShare/sublime.temp_caseinsensitive_rename-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compilerc5ab248d74d2b841^4485ae8e74d2b841^---0#0#1#-19%DVTDocumentLocation2@106"file:///Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/sublime.temp_caseinsensitive_rename-Prefix.pch0000000000000000^3944"ProcessPCH DerivedData/sublime/Build/Intermediates/PrecompiledHeaders/sublime.temp_caseinsensitive_rename-Prefix-hbqxeqhjhcqxxbdwhbdbhazkrgpn/sublime.temp_caseinsensitive_rename-Prefix.pch.pch SocialShare/sublime.temp_caseinsensitive_rename-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sdickson/Code/Sublime/iOS/Sublime    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/sublime-generated-files.hmap -I/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/sublime-own-target-headers.hmap -I/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/sublime-all-target-headers.hmap -iquote /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/sublime-project-headers.hmap -I/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/DerivedSources/armv7s -I/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/DerivedSources -F/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos -F/Users/sdickson/Documents/FacebookSDK -F/Users/USMEM-W-003157/Documents/FacebookSDK --serialize-diagnostics /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/PrecompiledHeaders/sublime.temp_caseinsensitive_rename-Prefix-hbqxeqhjhcqxxbdwhbdbhazkrgpn/sublime.temp_caseinsensitive_rename-Prefix.pch.dia -MMD -MT dependencies -MF /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/PrecompiledHeaders/sublime.temp_caseinsensitive_rename-Prefix-hbqxeqhjhcqxxbdwhbdbhazkrgpn/sublime.temp_caseinsensitive_rename-Prefix.pch.d -c /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/sublime.temp_caseinsensitive_rename-Prefix.pch -o /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/PrecompiledHeaders/sublime.temp_caseinsensitive_rename-Prefix-hbqxeqhjhcqxxbdwhbdbhazkrgpn/sublime.temp_caseinsensitive_rename-Prefix.pch.pch36"36716B8B-8E74-420A-BECC-C53DD2AFCEE5-
 b4994BC23-C5CA-4F73-98ED-A73E078B7FF8
 
+CProcessPCH /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Index/PrecompiledHeaders/sublime.temp_caseinsensitive_rename-Prefix-cghitdyjbpzavlclkgfxbwdtrsqa_ast/sublime.temp_caseinsensitive_rename-Prefix.pch.pch SocialShare/sublime.temp_caseinsensitive_rename-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
 CProcessPCH /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Index/PrecompiledHeaders/sublime.temp_caseinsensitive_rename-Prefix-fkcbvwdvjrczxvczuekdakudzbxi_ast/sublime.temp_caseinsensitive_rename-Prefix.pch.pch SocialShare/sublime.temp_caseinsensitive_rename-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
 r0
 
+CProcessPCH /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Index/PrecompiledHeaders/sublime.temp_caseinsensitive_rename-Prefix-hifxdngrrihwvxchgfwehnosytop_ast/sublime.temp_caseinsensitive_rename-Prefix.pch.pch SocialShare/sublime.temp_caseinsensitive_rename-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
 CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/sublime.xcent
-s416445586.426965
-e416445586.452450
+s416593380.085334
+e416593380.086160
 r1
 xProcessProductPackaging
 x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist
 x/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/sublime.xcent
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection241"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/sublime.xcent241"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/sublime.xcent58576d9274d2b841^7cd4739274d2b841^---0#0#1#-19%DVTDocumentLocation2@144"file:///Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/sublime.xcent0000000000000000^802"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/sublime.xcent    cd /Users/sdickson/Code/Sublime/iOS/Sublime    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/sublime.xcent36"B50F19EE-BA57-49B2-8D06-B1FEAD040FCB-
-b4994BC23-C5CA-4F73-98ED-A73E078B7FF8
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection241"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/sublime.xcent241"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/sublime.xcente7e015e4b5d4b841^fa0e16e4b5d4b841^---0#0#1#-19%DVTDocumentLocation2@144"file:///Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/sublime.xcent0000000000000000^802"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/sublime.xcent    cd /Users/sdickson/Code/Sublime/iOS/Sublime    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/sublime.build/Debug-iphoneos/sublime.build/sublime.xcent36"73F9EA66-E3B9-454C-8918-7C9127D8A3E1-
+bC2346B88-CCC2-4DC5-A249-0C35E9D13819
 
 CProcessProductPackaging /Users/sdickson/Library/MobileDevice/Provisioning\ Profiles/98850619-0A0D-48A4-A7DF-27E49D8D4F7F.mobileprovision /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app/embedded.mobileprovision
 r0
 
 CTouch /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app
-s416449448.798133
-e416449448.801155
+s416598111.239569
+e416598111.276627
 r1
 xTouch
 x/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Touch /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app67"Touch DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app6c5bcca883d2b841^4819cda883d2b841^---0#0#1#--429"Touch DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app    cd /Users/sdickson/Code/Sublime/iOS/Sublime    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app36"85646ACD-C219-43B0-8326-53E043FF620B-
-b44668B84-6063-4DD2-B2B6-D5076CE54542
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Touch /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app67"Touch DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.appfe5f3d5fc8d4b841^9ed1465fc8d4b841^---0#0#1#--429"Touch DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app    cd /Users/sdickson/Code/Sublime/iOS/Sublime    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Products/Debug-iphoneos/sublime.app36"C3B58B8E-8CEB-4893-A7BD-33D459787FC2-
+bCD7CE93C-807E-45AD-A031-E2B2B377F3F8
 

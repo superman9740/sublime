@@ -1,0 +1,28 @@
+Contents of /Users/sdickson/Code/Sublime/iOS/Sublime/SocialShare/sublime.temp_caseinsensitive_rename-Prefix.pch
+-x
+objective-c
+-arch
+armv7s
+-std=gnu99
+-fobjc-arc
+-fmodules
+-fmodules-cache-path=/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/ModuleCache
+-fpascal-strings
+-Os
+-isysroot
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk
+-g
+-fvisibility=hidden
+-miphoneos-version-min=7.0
+-iquote
+-iquote
+-I/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/ArchiveIntermediates/SocialShare/BuildProductsPath/Release-iphoneos/include
+-I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+-F/Users/sdickson/Code/Sublime/iOS/Sublime/DerivedData/sublime/Build/Intermediates/ArchiveIntermediates/SocialShare/BuildProductsPath/Release-iphoneos
+-F/Users/sdickson/Documents/FacebookSDK
+-F/Users/USMEM-W-003157/Documents/FacebookSDK
+-DNS_BLOCK_ASSERTIONS=1
+arm-apple-darwin13.1.0
+"4.2.1 Compatible Apple LLVM 5.1 (clang-503.0.38)"
+SDK_PRODUCT_BUILD_VERSION=11D167
+11D167
